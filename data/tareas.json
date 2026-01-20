@@ -1,0 +1,1558 @@
+{
+  "tareas": [
+    {
+      "id": "tarea_1763609349811_u53eewzd6",
+      "grupoId": "grupo_1763608695190_xet11geed",
+      "titulo": "General",
+      "descripcion": "Bien\n\nArchivo recibido: FGYA_1763608784886.jpg\n\nArchivo recibido: FGYA_1763609349151.jpg",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2025-11-27T03:29:09.810Z",
+      "archivos": [
+        {
+          "nombre": "FGYA_1763608784886.jpg",
+          "link": null,
+          "tipo": "image/jpeg"
+        },
+        {
+          "nombre": "FGYA_1763609349151.jpg",
+          "link": null,
+          "tipo": "image/jpeg"
+        }
+      ],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-11-20T03:29:09.811Z",
+      "fechaActualizacion": "2025-11-20T03:29:09.811Z",
+      "usuario": {
+        "whatsappId": "5213312714260@c.us",
+        "nombre": "Jose E"
+      }
+    },
+    {
+      "id": "tarea_1763609895538_wt54fzkl9",
+      "grupoId": "grupo_1763609858587_zmbazz6at",
+      "titulo": "Auditorías externas",
+      "descripcion": "Necesito una auditoria ISO 9001\n\nNecesito una auditoria ISO 9001\n\nNecesito una auditoria ISO 9001",
+      "responsable": {
+        "id": "janeth-silva",
+        "nombre": "Janeth Silva",
+        "telefono": "3321571469",
+        "email": "auditorfg@fg.com.mx"
+      },
+      "vencimiento": "2025-11-27T03:38:15.538Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-11-20T03:38:15.538Z",
+      "fechaActualizacion": "2025-11-20T03:38:15.538Z",
+      "usuario": {
+        "whatsappId": "5213312714260@c.us",
+        "nombre": "Jose E"
+      }
+    },
+    {
+      "id": "tarea_1763955566189_j21h2ebqx",
+      "grupoId": "grupo_1763954778564_mi6pbqfvz",
+      "titulo": "General",
+      "descripcion": "Contactar\n\nContactar\n\nQuiero hablar con Janeth Bautista",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2025-12-01T03:39:26.189Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-11-24T03:39:26.189Z",
+      "fechaActualizacion": "2025-11-24T03:39:26.189Z",
+      "usuario": {
+        "whatsappId": "5213312714260@c.us",
+        "nombre": "Jose E"
+      }
+    },
+    {
+      "id": "tarea_1763957189147_ztyciev6a",
+      "grupoId": "grupo_1763954748105_mtwro1v2o",
+      "titulo": "Facturación",
+      "descripcion": "Hola necesito una factura\n\nNecesito una factura\n\nNecesito hacer una factura",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "vencimiento": "2025-12-01T04:06:29.147Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-11-24T04:06:29.147Z",
+      "fechaActualizacion": "2025-11-24T04:06:29.147Z",
+      "usuario": {
+        "whatsappId": "5213312714260@c.us",
+        "nombre": "Jose E"
+      }
+    },
+    {
+      "id": "tarea_1764087231270_e5c6ozdz1",
+      "grupoId": "grupo_1764087024619_j2cc0l55k",
+      "titulo": "General",
+      "descripcion": "Quiero hablar con Janeth Bautista\n\nQue servicios ofrecen?\n\nQuiero hablar con Janeth Bautista",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2025-12-02T16:13:51.270Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-11-25T16:13:51.270Z",
+      "fechaActualizacion": "2025-11-25T16:13:51.270Z",
+      "usuario": {
+        "whatsappId": "5213313378854@c.us",
+        "nombre": "Eduardo"
+      }
+    },
+    {
+      "id": "tarea_1764791408252_zsb5pjb8i",
+      "grupoId": "grupo_1764791231910_14wu1ghg6",
+      "titulo": "General",
+      "descripcion": "Que es lo que hacen ustedes cómo empresa\n\nPuedes guardar documentos ?\n\nContactar",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2025-12-10T19:50:08.251Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-03T19:50:08.252Z",
+      "fechaActualizacion": "2025-12-03T19:50:08.252Z",
+      "usuario": {
+        "whatsappId": "5213316079761@c.us",
+        "nombre": "Gordita 🥰"
+      }
+    },
+    {
+      "id": "tarea_1767052321360_z7tar44tr",
+      "grupoId": "grupo_1767051985714_cixmbnls0",
+      "titulo": "General",
+      "descripcion": "Hola buenas tardes\n\nQuiero hablar con janeth\n\nContactar",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-05T23:52:01.360Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-29T23:52:01.361Z",
+      "fechaActualizacion": "2025-12-29T23:52:01.361Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767056465614_dmr9ct1cu",
+      "grupoId": "grupo_1767056368301_idw6tsonm",
+      "titulo": "General",
+      "descripcion": "Hola que tal buenas tardes\n\nQuiero hablar con el Ing. Alberto Mendez\n\nQuiero hablar con el Ing. Alberto Mendez",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T01:01:05.613Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T01:01:05.615Z",
+      "fechaActualizacion": "2025-12-30T01:01:05.615Z",
+      "usuario": {
+        "whatsappId": "30073428164710@lid",
+        "nombre": "Danielito"
+      }
+    },
+    {
+      "id": "tarea_1767116898613_ke677y8qr",
+      "grupoId": "grupo_1767116836905_6myb47yrb",
+      "titulo": "General",
+      "descripcion": "Hola que tal buenas tardes\n\nMe pueden explicar que es FGYA\n\nDe que es su empresa",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T17:48:18.612Z",
+      "archivos": [],
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T17:48:18.614Z",
+      "fechaActualizacion": "2025-12-30T17:48:18.614Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767117543071_ahc868",
+      "grupoId": "grupo_1767117521999_70utlx",
+      "titulo": "Consulta General",
+      "descripcion": "Hola que tal buenas tardes\n\nNecesito pedir informes sobre la empresa",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T17:59:03.071Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T17:59:03.076Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767117647807_kblv1i",
+      "grupoId": "grupo_1767117012005_9pfqkhicy",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y es fecha límite para cargar el archivo en el SAT\n\nDisculpa sigo en espera del certificado de la estación y es la fecha límite para cargar el archivo en el SAT solicito su apoyo con ese tema",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:00:47.807Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:00:47.807Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767117732037_nfu4yu",
+      "grupoId": "grupo_1767117012005_9pfqkhicy",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y es fecha límite para cargar el archivo en el SAT\n\nPero requiero de que me den archivos con el no me comunique la última vez hable",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:02:12.039Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:02:12.043Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767117789424_3p5x6s",
+      "grupoId": "grupo_1767117012005_9pfqkhicy",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y es fecha límite para cargar el archivo en el SAT\n\nBuenas tardes, necesito apoyo en la generación de archivos de control volumétrico quien me pueda ayudar con eso o darle estatus",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:03:09.425Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:03:09.425Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767117969094_7eb88e",
+      "grupoId": "grupo_1767117012005_9pfqkhicy",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y es fecha límite para cargar el archivo en el SAT\n\nQue tal necesito generar archivos de control volumétrico de transporte quien me los puede dar",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:06:09.094Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:06:09.095Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118244475_b4i6wu",
+      "grupoId": "grupo_1767117012005_9pfqkhicy",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y es fecha límite para cargar el archivo en el SAT\n\nHola que tal buenas tardes necesito recuperar una cuenta del portal de ASEA",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:10:44.475Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:10:44.476Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118324075_tq381s",
+      "grupoId": "grupo_1767118324071_zxc308",
+      "titulo": "Cuentas nuevas de portal de ASEA",
+      "descripcion": "Buenas tardes necesito que me ayuden con la cédula de operación anual",
+      "responsable": {
+        "id": "janeth-silva",
+        "nombre": "Janeth Silva",
+        "telefono": "3321571469",
+        "email": "auxiliar@gas360.mx"
+      },
+      "vencimiento": "2026-01-06T18:12:04.075Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:12:04.075Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118452523_3a2mon",
+      "grupoId": "grupo_1767117521999_70utlx",
+      "titulo": "Consulta General",
+      "descripcion": "Hola que tal buenas tardes\n\nHola que tal buenas tardes",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:14:12.523Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:14:12.523Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118488812_bnoac2",
+      "grupoId": "grupo_1767117012005_9pfqkhicy",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y es fecha límite para cargar el archivo en el SAT\n\nNecesito ayuda con el portal de asea",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:14:48.812Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:14:48.812Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118757785_gp2n5z",
+      "grupoId": "grupo_1767118757778_2minxd",
+      "titulo": "Atención a clientes",
+      "descripcion": "Hola buenas tardes requiero de su atención en el portal de asea",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:19:17.785Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:19:17.785Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118804531_ze7huh",
+      "grupoId": "grupo_1767118324071_zxc308",
+      "titulo": "Cuentas nuevas de portal de ASEA",
+      "descripcion": "Buenas tardes necesito que me ayuden con la cédula de operación anual\n\nRequiero recuperación de cuentas del portal ASEA",
+      "responsable": {
+        "id": "janeth-silva",
+        "nombre": "Janeth Silva",
+        "telefono": "3321571469",
+        "email": "auxiliar@gas360.mx"
+      },
+      "vencimiento": "2026-01-06T18:20:04.532Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:20:04.532Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118891568_o9lt6i",
+      "grupoId": "grupo_1767118324071_zxc308",
+      "titulo": "Cuentas nuevas de portal de ASEA",
+      "descripcion": "Buenas tardes necesito que me ayuden con la cédula de operación anual\n\nTambién requiero saber sobre el sistema de gestión de mediciones",
+      "responsable": {
+        "id": "janeth-silva",
+        "nombre": "Janeth Silva",
+        "telefono": "3321571469",
+        "email": "auxiliar@gas360.mx"
+      },
+      "vencimiento": "2026-01-06T18:21:31.568Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:21:31.568Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767118987803_scb87i",
+      "grupoId": "grupo_1767118757778_2minxd",
+      "titulo": "Atención a clientes",
+      "descripcion": "Hola buenas tardes requiero de su atención en el portal de asea\n\nTambién necesito atención para una cotización",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:23:07.804Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:23:07.804Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767119022891_xs4crf",
+      "grupoId": "grupo_1767118757778_2minxd",
+      "titulo": "Atención a clientes",
+      "descripcion": "Hola buenas tardes requiero de su atención en el portal de asea\n\nMe pueden brindar información de la empresa",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:23:42.892Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:23:42.892Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767119126922_1l4xhp",
+      "grupoId": "grupo_1767118757778_2minxd",
+      "titulo": "Atención a clientes",
+      "descripcion": "Hola buenas tardes requiero de su atención en el portal de asea\n\nY información sobre una auditoría externa",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:25:26.925Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:25:26.929Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767119181140_wqczy7",
+      "grupoId": "grupo_1767119181135_lg2gvq",
+      "titulo": "Auditorías Externas SASISOPA",
+      "descripcion": "También quiero saber sobre el anexo 32",
+      "responsable": {
+        "id": "sara-lopez",
+        "nombre": "Sara López",
+        "telefono": "3311101036",
+        "email": "sara@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:26:21.140Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:26:21.140Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767119235754_5lr3rl",
+      "grupoId": "grupo_1767119235752_4neb07",
+      "titulo": "Certificación Anexo 30 y 31",
+      "descripcion": "Y sobre el anexo 30",
+      "responsable": {
+        "id": "ana-paula-figueroa",
+        "nombre": "Ana Paula Figueroa",
+        "telefono": "3329499077",
+        "email": "ana@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:27:15.754Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:27:15.754Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767119347427_e513j7",
+      "grupoId": "grupo_1767119347421_astpoi",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y para poder hacer los archivos de control volumétrico y además soporte técnico a los sitios oficiales",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:29:07.427Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:29:07.427Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767121026847_sv6mlz",
+      "grupoId": "grupo_1767119347421_astpoi",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Y para poder hacer los archivos de control volumétrico y además soporte técnico a los sitios oficiales\n\nQue tal buenas tardes quisiera hablar con el Ing. Alberto Méndez",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T18:57:06.848Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T18:57:06.852Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767121353392_5d8oiq",
+      "grupoId": "grupo_1767121353388_5iu8by",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Buenas tardes quisiera hablar con el Ing. Alberto Méndez",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T19:02:33.392Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T19:02:33.392Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    },
+    {
+      "id": "tarea_1767123141657_0h5prx",
+      "grupoId": "grupo_1767121353388_5iu8by",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Buenas tardes quisiera hablar con el Ing. Alberto Méndez\n\nBuenas tardes quisiera hablar con el Ing. Alberto Méndez",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-06T19:32:21.657Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2025-12-30T19:32:21.658Z",
+      "usuario": {
+        "whatsappId": "132105073885375@lid",
+        "nombre": "Personal"
+      }
+    }
+  ],
+  "grupos": [
+    {
+      "id": "grupo_1763608651167_39hk32nnh",
+      "userId": "5213312714260@c.us",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Necesito informacion sobre los certificados",
+          "timestamp": 1763608651167,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763608651168,
+      "ultimoMensaje": 1763608651168,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1763608695190_xet11geed",
+      "userId": "5213312714260@c.us",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Bien",
+          "timestamp": 1763608695190,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Archivo recibido: FGYA_1763608784886.jpg",
+          "timestamp": 1763608785267,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "FGYA_1763608784886.jpg",
+            "link": null,
+            "tipo": "image/jpeg"
+          }
+        },
+        {
+          "texto": "Archivo recibido: FGYA_1763609349151.jpg",
+          "timestamp": 1763609349808,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "FGYA_1763609349151.jpg",
+            "link": null,
+            "tipo": "image/jpeg"
+          }
+        },
+        {
+          "texto": "Archivo recibido: FGYA_1763609953010.jpg",
+          "timestamp": 1763609953877,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "FGYA_1763609953010.jpg",
+            "link": null,
+            "tipo": "image/jpeg"
+          }
+        }
+      ],
+      "primerMensaje": 1763608695190,
+      "ultimoMensaje": 1763609953877,
+      "archivos": [
+        {
+          "nombre": "FGYA_1763608784886.jpg",
+          "link": null,
+          "tipo": "image/jpeg"
+        },
+        {
+          "nombre": "FGYA_1763609349151.jpg",
+          "link": null,
+          "tipo": "image/jpeg"
+        },
+        {
+          "nombre": "FGYA_1763609953010.jpg",
+          "link": null,
+          "tipo": "image/jpeg"
+        }
+      ],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1763609349811_u53eewzd6"
+    },
+    {
+      "id": "grupo_1763608723140_kr97ay335",
+      "userId": "5213312714260@c.us",
+      "tema": "Auditorías Externas SASSOX",
+      "especialistaId": "sara-lopez",
+      "especialista": "Sara López",
+      "mensajes": [
+        {
+          "texto": "Queria saber que otros servicios ofrecen?",
+          "timestamp": 1763608723140,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763608723140,
+      "ultimoMensaje": 1763608723140,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1763609858587_zmbazz6at",
+      "userId": "5213312714260@c.us",
+      "tema": "Auditorías externas",
+      "especialistaId": "janeth-silva",
+      "especialista": "Janeth Silva",
+      "mensajes": [
+        {
+          "texto": "Necesito una auditoria ISO 9001",
+          "timestamp": 1763609858587,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito una auditoria ISO 9001",
+          "timestamp": 1763609879975,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito una auditoria ISO 9001",
+          "timestamp": 1763609895536,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763609858587,
+      "ultimoMensaje": 1763609895536,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1763609895538_wt54fzkl9"
+    },
+    {
+      "id": "grupo_1763610190805_bg81onixf",
+      "userId": "5213312714260@c.us",
+      "tema": "Soporte",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito soporte tecnico",
+          "timestamp": 1763610190804,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763610190805,
+      "ultimoMensaje": 1763610190805,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1763698929391_gjuiaigbl",
+      "userId": "5213312714260@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Necesito una factura",
+          "timestamp": 1763698929391,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito una factura",
+          "timestamp": 1763699723720,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763698929391,
+      "ultimoMensaje": 1763699723720,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1763699014439_wmefu547r",
+      "userId": "5213312714260@c.us",
+      "tema": "Cuentas nuevas de portal de ASEA",
+      "especialistaId": "janeth-silva",
+      "especialista": "Janeth Silva",
+      "mensajes": [
+        {
+          "texto": "Nesesito ayuda con el portal ASEA",
+          "timestamp": 1763699014439,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763699014439,
+      "ultimoMensaje": 1763699014439,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1763954748105_mtwro1v2o",
+      "userId": "5213312714260@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Hola necesito una factura",
+          "timestamp": 1763954748105,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito una factura",
+          "timestamp": 1763955493695,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito hacer una factura",
+          "timestamp": 1763957189145,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763954748105,
+      "ultimoMensaje": 1763957189145,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1763957189147_ztyciev6a"
+    },
+    {
+      "id": "grupo_1763954778564_mi6pbqfvz",
+      "userId": "5213312714260@c.us",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Contactar",
+          "timestamp": 1763954778564,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Contactar",
+          "timestamp": 1763955510175,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1763955566187,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1763955982333,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1763956410497,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1763956915323,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1763957155403,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Contactar",
+          "timestamp": 1763957205694,
+          "nombreUsuario": "Jose E",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1763954778564,
+      "ultimoMensaje": 1763957205694,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1763955566189_j21h2ebqx"
+    },
+    {
+      "id": "grupo_1764086965251_w1n9tlj5o",
+      "userId": "5213311321710@c.us",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Archivo recibido: FGYA_1764086964520.oga",
+          "timestamp": 1764086965251,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "FGYA_1764086964520.oga",
+            "link": null,
+            "tipo": "audio/ogg; codecs=opus"
+          }
+        }
+      ],
+      "primerMensaje": 1764086965251,
+      "ultimoMensaje": 1764086965251,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1764087024619_j2cc0l55k",
+      "userId": "5213313378854@c.us",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1764087024619,
+          "nombreUsuario": "Eduardo",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Que servicios ofrecen?",
+          "timestamp": 1764087197548,
+          "nombreUsuario": "Eduardo",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Janeth Bautista",
+          "timestamp": 1764087231265,
+          "nombreUsuario": "Eduardo",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1764087024620,
+      "ultimoMensaje": 1764087231268,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1764087231270_e5c6ozdz1"
+    },
+    {
+      "id": "grupo_1764791231910_14wu1ghg6",
+      "userId": "5213316079761@c.us",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Que es lo que hacen ustedes cómo empresa",
+          "timestamp": 1764791231910,
+          "nombreUsuario": "Gordita 🥰",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Puedes guardar documentos ?",
+          "timestamp": 1764791390198,
+          "nombreUsuario": "Gordita 🥰",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Contactar",
+          "timestamp": 1764791408248,
+          "nombreUsuario": "Gordita 🥰",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1764791231910,
+      "ultimoMensaje": 1764791408248,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1764791408252_zsb5pjb8i"
+    },
+    {
+      "id": "grupo_1764791280910_wzig35qrr",
+      "userId": "5213316079761@c.us",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Quiero hablar con equipo general",
+          "timestamp": 1764791280910,
+          "nombreUsuario": "Gordita 🥰",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1764791280910,
+      "ultimoMensaje": 1764791280910,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1766803146781_oryuqn132",
+      "userId": "132105073885375@lid",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Hola buenas tardes",
+          "timestamp": 1766803146781,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1766803146781,
+      "ultimoMensaje": 1766803146781,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1766803168668_hub3r1ih1",
+      "userId": "132105073885375@lid",
+      "tema": "Soporte",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito ayuda",
+          "timestamp": 1766803168668,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1766803168668,
+      "ultimoMensaje": 1766803168668,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767051985714_cixmbnls0",
+      "userId": "132105073885375@lid",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Hola buenas tardes",
+          "timestamp": 1767051985713,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con janeth",
+          "timestamp": 1767052007627,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Contactar",
+          "timestamp": 1767052321349,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Hola buenas tardes",
+          "timestamp": 1767053199937,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito comunicarme con janeth",
+          "timestamp": 1767053217911,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Necesito hablar con Janeth Silva",
+          "timestamp": 1767053264829,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Hola buenas tardes",
+          "timestamp": 1767053675428,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con el  Ing. Alberto Méndez",
+          "timestamp": 1767053698297,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Ok necesito hablar con el Ing. Alberto Méndez",
+          "timestamp": 1767053980233,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Que hace el Ing. Alberto Méndez",
+          "timestamp": 1767054025861,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Hola buenas tardes",
+          "timestamp": 1767055091187,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con el Ing. Alberto Méndez",
+          "timestamp": 1767055115856,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Hola buenas tardes, quisiera hablar con el Ing. Alberto Mendez",
+          "timestamp": 1767056131787,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con Alberto Méndez",
+          "timestamp": 1767056179261,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con el Ing. Alberto Méndez",
+          "timestamp": 1767056202816,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con el Ing. Alberto Méndez",
+          "timestamp": 1767056249580,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767051985715,
+      "ultimoMensaje": 1767056249580,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1767052321360_z7tar44tr"
+    },
+    {
+      "id": "grupo_1767052368318_jqp3tqnou",
+      "userId": "132105073885375@lid",
+      "tema": "Soporte",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Pero necesito ayuda con los archivos json quienes es el encargado de generar los archivos json",
+          "timestamp": 1767052368317,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767052368318,
+      "ultimoMensaje": 1767052368318,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767055196390_3qeev5ltj",
+      "userId": "278867965169910@lid",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Rechazo_2025123008332319093.pdf",
+          "timestamp": 1767055196389,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "Rechazo_2025123008332319093_1767055194730.pdf",
+            "link": null,
+            "tipo": "application/pdf"
+          }
+        },
+        {
+          "texto": "es febrero 2022 y tambien se rechazo",
+          "timestamp": 1767055208980,
+          "nombreUsuario": "sofia Trans Cotija",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767055196390,
+      "ultimoMensaje": 1767055208980,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767056368301_idw6tsonm",
+      "userId": "30073428164710@lid",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Hola que tal buenas tardes",
+          "timestamp": 1767056368300,
+          "nombreUsuario": "Danielito",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con el Ing. Alberto Mendez",
+          "timestamp": 1767056392210,
+          "nombreUsuario": "Danielito",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero hablar con el Ing. Alberto Mendez",
+          "timestamp": 1767056465609,
+          "nombreUsuario": "Danielito",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quisiera hablar con el Ing. Alberto Méndez",
+          "timestamp": 1767056624830,
+          "nombreUsuario": "Danielito",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Que hace el Ing. Alberto",
+          "timestamp": 1767056708029,
+          "nombreUsuario": "Danielito",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Que hace el Ing. Alberto Méndez",
+          "timestamp": 1767056735259,
+          "nombreUsuario": "Danielito",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767056368301,
+      "ultimoMensaje": 1767056735259,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1767056465614_dmr9ct1cu"
+    },
+    {
+      "id": "grupo_1767116836905_6myb47yrb",
+      "userId": "132105073885375@lid",
+      "tema": "General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Hola que tal buenas tardes",
+          "timestamp": 1767116836904,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Me pueden explicar que es FGYA",
+          "timestamp": 1767116861427,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "De que es su empresa",
+          "timestamp": 1767116898604,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Quiero informes de la empresa",
+          "timestamp": 1767116922652,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Cuáles son los especialistas que hay ?",
+          "timestamp": 1767116954026,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Me comunico del permiso 9755",
+          "timestamp": 1767117011203,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Ya que sigo en espera del certificado de la estacion",
+          "timestamp": 1767117011563,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Solicito de su apoyo con este tema",
+          "timestamp": 1767117012299,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        },
+        {
+          "texto": "Me comunico del permiso 9755",
+          "timestamp": 1767117045577,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767116836906,
+      "ultimoMensaje": 1767117045577,
+      "archivos": [],
+      "necesitaTarea": false,
+      "tareaId": "tarea_1767116898613_ke677y8qr"
+    },
+    {
+      "id": "grupo_1767117012005_9pfqkhicy",
+      "userId": "132105073885375@lid",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Y es fecha límite para cargar el archivo en el SAT",
+          "timestamp": 1767117012004,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767117012005,
+      "ultimoMensaje": 1767117012005,
+      "archivos": [],
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767117521999_70utlx",
+      "userId": "132105073885375@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Hola que tal buenas tardes",
+          "timestamp": 1767117521999,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767117521999,
+      "ultimoMensaje": 1767117521999,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767117790674_371iac",
+      "userId": "131430680117420@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Muy bien",
+          "timestamp": 1767117790674,
+          "nombreUsuario": "Facturación y Cobranza Janeth Bautista",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767117790674,
+      "ultimoMensaje": 1767117790674,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767118324071_zxc308",
+      "userId": "132105073885375@lid",
+      "tema": "Cuentas nuevas de portal de ASEA",
+      "especialistaId": "janeth-silva",
+      "especialista": "Janeth Silva",
+      "mensajes": [
+        {
+          "texto": "Buenas tardes necesito que me ayuden con la cédula de operación anual",
+          "timestamp": 1767118324071,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767118324071,
+      "ultimoMensaje": 1767118324071,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767118757778_2minxd",
+      "userId": "132105073885375@lid",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Hola buenas tardes requiero de su atención en el portal de asea",
+          "timestamp": 1767118757778,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767118757778,
+      "ultimoMensaje": 1767118757778,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767119181135_lg2gvq",
+      "userId": "132105073885375@lid",
+      "tema": "Auditorías Externas SASISOPA",
+      "especialistaId": "sara-lopez",
+      "especialista": "Sara López",
+      "mensajes": [
+        {
+          "texto": "También quiero saber sobre el anexo 32",
+          "timestamp": 1767119181135,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767119181135,
+      "ultimoMensaje": 1767119181135,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767119235752_4neb07",
+      "userId": "132105073885375@lid",
+      "tema": "Certificación Anexo 30 y 31",
+      "especialistaId": "ana-paula-figueroa",
+      "especialista": "Ana Paula Figueroa",
+      "mensajes": [
+        {
+          "texto": "Y sobre el anexo 30",
+          "timestamp": 1767119235752,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767119235752,
+      "ultimoMensaje": 1767119235752,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767119347421_astpoi",
+      "userId": "132105073885375@lid",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Y para poder hacer los archivos de control volumétrico y además soporte técnico a los sitios oficiales",
+          "timestamp": 1767119347421,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767119347421,
+      "ultimoMensaje": 1767119347421,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1767121353388_5iu8by",
+      "userId": "132105073885375@lid",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Buenas tardes quisiera hablar con el Ing. Alberto Méndez",
+          "timestamp": 1767121353388,
+          "nombreUsuario": "Personal",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1767121353388,
+      "ultimoMensaje": 1767121353388,
+      "necesitaTarea": true
+    }
+  ]
+}

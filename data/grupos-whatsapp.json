@@ -1,0 +1,112 @@
+{
+  "grupos": [
+    {
+      "id": {
+        "server": "g.us",
+        "user": "120363421890555541",
+        "_serialized": "120363421890555541@g.us"
+      },
+      "nombre": "FGYA - Eduardo",
+      "clienteId": "5213313378854@c.us",
+      "clienteNombre": "Eduardo",
+      "especialistaId": "janeth-bautista",
+      "especialistaWhatsApp": "521XXXXXXXXXX@c.us",
+      "estado": "ia_activa",
+      "fechaCreacion": "2025-11-25T16:10:31.392Z",
+      "ultimaActividadEspecialista": null,
+      "ultimaActividadIA": 1764087031392,
+      "timerReactivarIA": null
+    },
+    {
+      "id": {
+        "server": "g.us",
+        "user": "120363424499608160",
+        "_serialized": "120363424499608160@g.us"
+      },
+      "nombre": "FGYA - Eduardo",
+      "clienteId": "5213313378854@c.us",
+      "clienteNombre": "Eduardo",
+      "especialistaId": "janeth-bautista",
+      "especialistaWhatsApp": "521XXXXXXXXXX@c.us",
+      "estado": "ia_activa",
+      "fechaCreacion": "2025-11-25T16:13:56.591Z",
+      "ultimaActividadEspecialista": null,
+      "ultimaActividadIA": 1764087236591,
+      "timerReactivarIA": null
+    },
+    {
+      "id": {
+        "server": "g.us",
+        "user": "120363404866808073",
+        "_serialized": "120363404866808073@g.us"
+      },
+      "nombre": "FGYA - Francisco Ramírez",
+      "especialistaId": "francisco-ramirez",
+      "especialistaWhatsApp": "521XXXXXXXXXX@c.us",
+      "especialistaNombre": "Francisco Ramírez",
+      "inviteLink": null,
+      "linkActualizado": null,
+      "estado": "ia_activa",
+      "fechaCreacion": "2025-12-03T19:48:07.939Z",
+      "ultimaActividadEspecialista": null,
+      "ultimaActividadIA": 1764791287939,
+      "timerReactivarIA": null
+    },
+    {
+      "id": {
+        "server": "g.us",
+        "user": "120363406785376949",
+        "_serialized": "120363406785376949@g.us"
+      },
+      "nombre": "FGYA - Equipo General",
+      "especialistaId": "default",
+      "especialistaWhatsApp": "521XXXXXXXXXX@c.us",
+      "especialistaNombre": "Equipo General",
+      "inviteLink": null,
+      "linkActualizado": null,
+      "estado": "ia_activa",
+      "fechaCreacion": "2025-12-03T19:50:14.234Z",
+      "ultimaActividadEspecialista": null,
+      "ultimaActividadIA": 1764791414235,
+      "timerReactivarIA": null
+    },
+    {
+      "id": {
+        "server": "g.us",
+        "user": "120363404657980726",
+        "_serialized": "120363404657980726@g.us"
+      },
+      "nombre": "Grupo Desconocido",
+      "especialistaId": "janeth-silva",
+      "especialistaWhatsApp": "521XXXXXXXXXX@c.us",
+      "especialistaNombre": "Janeth Silva",
+      "inviteLink": null,
+      "linkActualizado": null,
+      "estado": "ia_activa",
+      "fechaCreacion": "2025-12-30T00:07:53.662Z",
+      "ultimaActividadEspecialista": null,
+      "ultimaActividadIA": 1767053273662,
+      "timerReactivarIA": null,
+      "infoActualizada": "2025-12-30T00:07:53.662Z"
+    },
+    {
+      "id": {
+        "server": "g.us",
+        "user": "120363405228302348",
+        "_serialized": "120363405228302348@g.us"
+      },
+      "nombre": "Grupo Desconocido",
+      "especialistaId": "alberto-mendez",
+      "especialistaWhatsApp": "521XXXXXXXXXX@c.us",
+      "especialistaNombre": "Ing. Alberto Méndez",
+      "inviteLink": null,
+      "linkActualizado": null,
+      "estado": "ia_activa",
+      "fechaCreacion": "2025-12-30T19:02:44.354Z",
+      "ultimaActividadEspecialista": null,
+      "ultimaActividadIA": 1767121364354,
+      "timerReactivarIA": null,
+      "infoActualizada": "2025-12-30T19:02:44.354Z"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "especialistas": [
+    {
+      "id": "janeth-silva",
+      "nombre": "Janeth Silva",
+      "telefono": "3321571469",
+      "email": "auxiliar@gas360.mx",
+      "especialidades": [
+        "Cuentas nuevas de portal de ASEA",
+        "Recuperación de cuentas del portal ASEA",
+        "Cuentas en portal de SINATEC",
+        "Cédula de operación anual (COA)",
+        "Registro del número de registro ambiental (NRA)",
+        "Recuperación de cuenta SINATEC",
+        "Póliza de seguro",
+        "Conformación del SASISOPA",
+        "Carga de la conformación del SESISOPA",
+        "Cuenta de portal SIRCE",
+        "Manuales y constancias de STPS",
+        "Registro de constancia de STPS en SIRCE",
+        "Informe del desempeño y seguimiento del SASISOPA",
+        "Sistema de gestión de mediciones (SGM)",
+        "RENAGAA",
+        "Registro en cuenta OPE ASSE 2.0",
+        "Implementación del SASISOPA",
+        "Cambio de representante legal en OPE ASEA",
+        "Cambio de correo electrónico en OPE ASEA",
+        "Avisos de inicio de operaciones"
+      ],
+      "palabrasClave": [
+        "portal asea",
+        "portal asea",
+        "portal sinatec",
+        "sinatec",
+        "coa",
+        "cédula de operación",
+        "cedula de operacion",
+        "nra",
+        "número de registro ambiental",
+        "numero de registro ambiental",
+        "póliza",
+        "poliza",
+        "seguro",
+        "sasisopa",
+        "sesisopa",
+        "sirce",
+        "stps",
+        "manuales",
+        "constancias",
+        "sgm",
+        "sistema de gestión de mediciones",
+        "sistema de gestion de mediciones",
+        "renagaa",
+        "ope asse",
+        "ope asea",
+        "representante legal",
+        "inicio de operaciones"
+      ],
+      "auxiliares": [
+        {
+          "nombre": "Diana Torres",
+          "email": "soporte4@gas360.mx"
+        },
+        {
+          "nombre": "Fabiola Jacobo",
+          "email": "soporte2@gas360.mx"
+        },
+        {
+          "nombre": "Isabel Fernández",
+          "email": "Auxiliar30@gas360.mx"
+        },
+        {
+          "nombre": "Alejandra Reyes",
+          "email": "soporte3@gas360.mx"
+        },
+        {
+          "nombre": "Guillermina David",
+          "email": "auxiliar4@gas360.mx"
+        }
+      ]
+    },
+    {
+      "id": "noemi-hernandez",
+      "nombre": "Noemí Hernández",
+      "telefono": "3313078636",
+      "email": "asesoria2@gas360.mx",
+      "especialidades": [
+        "Licencia de funcionamiento",
+        "Análisis de riesgo",
+        "Protocolo de respuesta a emergencias",
+        "Programa de protección civil municipal",
+        "Programa de protección civil estatal",
+        "Registro de empresa que maneja materiales peligrosos",
+        "Evaluación de impacto social",
+        "Investigación causa raíz"
+      ],
+      "palabrasClave": [
+        "licencia",
+        "funcionamiento",
+        "análisis de riesgo",
+        "analisis de riesgo",
+        "protocolo",
+        "emergencias",
+        "protección civil",
+        "proteccion civil",
+        "municipal",
+        "estatal",
+        "materiales peligrosos",
+        "impacto social",
+        "causa raíz",
+        "causa raiz",
+        "sasisopa",
+        "coa",
+        "renadas"
+      ],
+      "auxiliares": [
+        {
+          "nombre": "Vicky Fuentes",
+          "email": "controlv@gas360.mx",
+          "especialidades": [
+            "Registro como generador de residuos peligrosos",
+            "Registro como generador de residuos especiales"
+          ]
+        },
+        {
+          "nombre": "Natali Medina",
+          "email": "asesoria3@gas360.mx",
+          "especialidades": [
+            "Informe preventivo de impacto ambiental"
+          ]
+        },
+        {
+          "nombre": "Ivon Zaragoza",
+          "email": "Auxiliar2@gas360.mx"
+        },
+        {
+          "nombre": "Juliana Pérez",
+          "email": "asesoria@gas360.mx"
+        }
+      ]
+    },
+    {
+      "id": "francisco-ramirez",
+      "nombre": "Francisco Ramírez",
+      "telefono": "3313332696",
+      "email": "clientes@fgya.com.mx",
+      "especialidades": [
+        "Atención a clientes",
+        "Cotizaciones",
+        "Información en general"
+      ],
+      "palabrasClave": [
+        "atención",
+        "atencion",
+        "cliente",
+        "clientes",
+        "cotización",
+        "cotizacion",
+        "cotizar",
+        "información",
+        "informacion",
+        "general",
+        "consulta",
+        "precio",
+        "costos"
+      ],
+      "auxiliares": []
+    },
+    {
+      "id": "sara-lopez",
+      "nombre": "Sara López",
+      "telefono": "3311101036",
+      "email": "sara@fgya.com.mx",
+      "especialidades": [
+        "Auditorías Externas SASISOPA",
+        "Dictaminación SASISOPA",
+        "Anexo 32",
+        "Análisis de Combustibles semestrales"
+      ],
+      "palabrasClave": [
+        "auditoría externa",
+        "auditoria externa",
+        "auditorías externas",
+        "auditorias externas",
+        "sasisopa",
+        "dictaminación",
+        "dictaminacion",
+        "anexo 32",
+        "análisis de combustibles",
+        "analisis de combustibles",
+        "combustibles semestrales"
+      ],
+      "auxiliares": [
+        {
+          "nombre": "Fabiola Martinez",
+          "email": "agenda@fgya.com.mx",
+          "especialidades": [
+            "Programación servicios Laboratorio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aurora-chavira",
+      "nombre": "Aurora Chavira",
+      "telefono": "3317490504",
+      "email": "cv@fgya.com.mx",
+      "especialidades": [
+        "NOM-016-CRE-2016"
+      ],
+      "palabrasClave": [
+        "nom-016",
+        "nom 016",
+        "cre-2016",
+        "cre 2016",
+        "nom-005",
+        "nom 005",
+        "asea-2016",
+        "asea 2016"
+      ],
+      "auxiliares": [
+        {
+          "nombre": "Laura Flores",
+          "email": "calidad@fgya.com.mx",
+          "especialidades": [
+            "NOM-005-ASEA-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ana-paula-figueroa",
+      "nombre": "Ana Paula Figueroa",
+      "telefono": "3329499077",
+      "email": "ana@fgya.com.mx",
+      "especialidades": [
+        "Certificación Anexo 30 y 31"
+      ],
+      "palabrasClave": [
+        "anexo 30",
+        "anexo 31",
+        "certificación anexo",
+        "certificacion anexo",
+        "anexo30",
+        "anexo31"
+      ],
+      "auxiliares": [
+        {
+          "nombre": "Diana Reséndiz",
+          "email": "anexo30@fgya.com.mx"
+        },
+        {
+          "nombre": "Nancy Mercado",
+          "email": "anexo30-2@fgya.com.mx"
+        }
+      ]
+    },
+    {
+      "id": "alfredo-zamudio",
+      "nombre": "J. Alfredo Zamudio",
+      "telefono": "3318647476",
+      "email": "laboratorio@fgya.com.mx",
+      "especialidades": [
+        "Cubicación de Tanque",
+        "Calibración de Sondas",
+        "Comprobación de sondas",
+        "Jarra Patrón",
+        "Pruebas de Hermeticidad"
+      ],
+      "palabrasClave": [
+        "cubicación",
+        "cubicacion",
+        "tanque",
+        "calibración",
+        "calibracion",
+        "sondas",
+        "sonda",
+        "comprobación",
+        "comprobacion",
+        "jarra patrón",
+        "jarra patron",
+        "hermeticidad",
+        "pruebas de hermeticidad",
+        "laboratorio"
+      ],
+      "auxiliares": [
+        {
+          "nombre": "Gustavo Topete",
+          "email": "gustavo@fgya.com.mx",
+          "especialidades": [
+            "NOM-004-ASEA-2017"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "janeth-bautista",
+      "nombre": "Janeth Bautista",
+      "telefono": "3328339619",
+      "email": "administracion@fgya.com.mx",
+      "especialidades": [
+        "Facturación",
+        "Cobranza",
+        "Complementos de pago"
+      ],
+      "palabrasClave": [
+        "facturación",
+        "facturacion",
+        "factura",
+        "facturar",
+        "cobranza",
+        "pago",
+        "pagos",
+        "complemento",
+        "complementos",
+        "administración",
+        "administracion"
+      ],
+      "auxiliares": []
+    },
+    {
+      "id": "alberto-mendez",
+      "nombre": "Ing. Alberto Méndez",
+      "telefono": "3346790303",
+      "email": "alberto@fgya.com.mx",
+      "especialidades": [
+        "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+        "Soporte de sistemas para sitios oficiales de FGYA",
+        "Resolución de errores técnicos en portales web"
+      ],
+      "palabrasClave": [
+        "xml",
+        "json",
+        "sat",
+        "transporte",
+        "mensual",
+        "archivos",
+        "sistemas",
+        "soporte técnico",
+        "soporte",
+        "errores",
+        "sitio web",
+        "portal",
+        "tecnico",
+        "tecnología"
+      ],
+      "auxiliares": []
+    },
+    {
+      "id": "default",
+      "nombre": "Equipo General",
+      "telefono": "(33) 3407 0123",
+      "email": "alex@fgya.com.mx",
+      "especialidades": [
+        "Consultas generales",
+        "Soporte técnico"
+      ],
+      "palabrasClave": [],
+      "auxiliares": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+2025/08/20-09:43:56.854 6164 Reusing MANIFEST D:\trabajo fgya\whatsapp-chatbot\_IGNORE_ChatGPT-Bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/20-09:43:56.855 6164 Recovering log #292
+2025/08/20-09:43:56.873 6164 Reusing old log D:\trabajo fgya\whatsapp-chatbot\_IGNORE_ChatGPT-Bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000292.log 
+2025/08/20-09:43:58.023 2874 Level-0 table #299: started
+2025/08/20-09:43:58.161 2874 Level-0 table #299: 524421 bytes OK
+2025/08/20-09:43:58.213 2874 Delete type=0 #292
+2025/08/20-09:43:58.213 1ca4 Manual compaction at level-0 from '\x00M\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00N\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/20-09:43:59.426 6164 Compacting 1@1 + 3@2 files
+2025/08/20-09:43:59.766 6164 Generated table #300@1: 45412 keys, 2201392 bytes
+2025/08/20-09:44:00.068 6164 Generated table #301@1: 14937 keys, 2170538 bytes
+2025/08/20-09:44:00.271 6164 Generated table #302@1: 35495 keys, 1057676 bytes
+2025/08/20-09:44:00.271 6164 Compacted 1@1 + 3@2 files => 5429606 bytes
+2025/08/20-09:44:00.311 6164 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/20-09:44:00.312 6164 Delete type=2 #294
+2025/08/20-09:44:00.312 6164 Delete type=2 #295
+2025/08/20-09:44:00.312 6164 Delete type=2 #296
+2025/08/20-09:44:00.312 6164 Delete type=2 #299

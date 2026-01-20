@@ -1,0 +1,13 @@
+{
+  "usuario": {
+    "nombre": "Juan Pérez",
+    "email": "juan@ejemplo.com",
+    "telefono": "3312345678",
+    "whatsapp": "5213312345678@c.us",
+    "descripción": "Necesito ayuda con mi certificación"
+  },
+  "timestamp": "2024-01-15T10:30:00.000Z",
+  "fuente": "WhatsApp Bot",
+  "tipo": "Solicitud de Soporte"
+}
+

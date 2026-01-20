@@ -1,0 +1,30 @@
+{
+  "tarea": {
+    "id": "tarea_1234567890_abc123",
+    "titulo": "Cotización de servicios",
+    "descripcion": "El cliente solicita información sobre servicios de auditoría...",
+    "responsable": {
+      "nombre": "Janeth Silva",
+      "telefono": "3321571469",
+      "email": "auditorfg@fg.com.mx"
+    },
+    "vencimiento": "2024-02-15T10:30:00.000Z",
+    "archivos": [
+      {
+        "nombre": "documento.pdf",
+        "link": "https://drive.google.com/file/d/...",
+        "tipo": "application/pdf"
+      }
+    ],
+    "estatus": "Pendiente",
+    "tema": "Cotización"
+  },
+  "usuario": {
+    "whatsapp": "5213312345678@c.us",
+    "nombre": "Juan Pérez"
+  },
+  "timestamp": "2024-01-15T10:30:00.000Z",
+  "fuente": "WhatsApp Bot",
+  "tipo": "Tarea"
+}
+
