@@ -2,8 +2,10 @@
 // 📋 TaskManager Optimizado
 // ============================================
 
+const { detectarPrioridad } = require("./prioridad"); // se importa 26/01/2026 - funcion para detectar prioridad
 const fs = require("fs");
 const path = require("path");
+
 
 // Configuración optimizada
 const TASK_STORAGE_PATH = path.join(__dirname, "..", "data", "tareas.json");
@@ -21,27 +23,27 @@ const MENSAJES_INNECESARIOS = [
 // Función mejorada para detectar mensajes innecesarios
 function esMensajeInnecesario(texto) {
   if (!texto || typeof texto !== "string") return true;
-  
+
   const limpio = texto.trim().toLowerCase();
   if (limpio.length < 2) return true;
-  
+
   // Lista exacta
   if (MENSAJES_INNECESARIOS.includes(limpio)) return true;
-  
+
   // Solo emojis
   if (/^[\u{1F300}-\u{1F9FF}\s]+$/u.test(limpio)) return true;
-  
+
   return false;
 }
 
 // Función MEJORADA para extraer tema y especialista
 function extraerTemaYEspecialista(texto, especialistas) {
   const textoLower = texto.toLowerCase();
-  
+
   // 1. Buscar por nombre de especialista primero (más preciso)
   for (const esp of especialistas) {
     if (esp.id === 'default') continue;
-    
+
     const nombreLower = esp.nombre.toLowerCase();
     if (textoLower.includes(nombreLower)) {
       return {
@@ -52,11 +54,11 @@ function extraerTemaYEspecialista(texto, especialistas) {
       };
     }
   }
-  
+
   // 2. Buscar por palabras clave
   for (const esp of especialistas) {
     if (esp.id === 'default') continue;
-    
+
     for (const palabra of esp.palabrasClave || []) {
       if (!palabra) continue;
       if (textoLower.includes(palabra.toLowerCase())) {
@@ -69,7 +71,7 @@ function extraerTemaYEspecialista(texto, especialistas) {
       }
     }
   }
-  
+
   // 3. Detección de temas generales
   if (textoLower.includes("cotiz") || textoLower.includes("precio")) {
     return { tema: "Cotización", especialistaId: "default", especialista: null, confianza: 0.6 };
@@ -83,7 +85,7 @@ function extraerTemaYEspecialista(texto, especialistas) {
   if (textoLower.includes("xml") || textoLower.includes("json") || textoLower.includes("sat")) {
     return { tema: "Archivos XML/JSON SAT", especialistaId: "alberto-mendez", especialista: null, confianza: 0.8 };
   }
-  
+
   // 4. Por defecto
   return { tema: "Consulta General", especialistaId: "default", especialista: null, confianza: 0.3 };
 }
@@ -94,7 +96,7 @@ function cargarTareas() {
     if (fs.existsSync(TASK_STORAGE_PATH)) {
       return JSON.parse(fs.readFileSync(TASK_STORAGE_PATH, "utf8"));
     }
-  } catch (err) {}
+  } catch (err) { }
   return { tareas: [], grupos: [] };
 }
 
@@ -121,11 +123,11 @@ function procesarMensaje(texto, userId, nombreUsuario = null, tieneArchivo = fal
       especialista: null
     };
   }
-  
+
   // 2. Cargar datos
   const data = cargarTareas();
   let especialistas = [];
-  
+
   try {
     const especialistasPath = path.join(__dirname, "..", "config", "especialistas.json");
     if (fs.existsSync(especialistasPath)) {
@@ -134,17 +136,17 @@ function procesarMensaje(texto, userId, nombreUsuario = null, tieneArchivo = fal
   } catch (err) {
     console.error("⚠️ Error cargando especialistas:", err.message);
   }
-  
+
   // 3. Extraer tema y especialista (MEJORADO)
   const { tema, especialistaId, especialista } = extraerTemaYEspecialista(texto, especialistas);
-  
+
   console.log(`🎯 Tema detectado: ${tema} | Especialista: ${especialista?.nombre || especialistaId}`);
-  
+
   // 4. Buscar grupo existente para este usuario y tema
   let grupoExistente = null;
   const ahora = Date.now();
   const ventanaAgrupacion = 30 * 60 * 1000; // 30 minutos
-  
+
   for (const grupo of data.grupos) {
     if (grupo.userId === userId && grupo.tema === tema) {
       const tiempoTranscurrido = ahora - grupo.ultimoMensaje;
@@ -154,7 +156,7 @@ function procesarMensaje(texto, userId, nombreUsuario = null, tieneArchivo = fal
       }
     }
   }
-  
+
   // 5. Crear mensaje
   const mensaje = {
     texto: texto,
@@ -163,20 +165,20 @@ function procesarMensaje(texto, userId, nombreUsuario = null, tieneArchivo = fal
     tieneArchivo: tieneArchivo,
     archivo: archivoInfo
   };
-  
+
   // 6. Manejar grupo
   if (grupoExistente) {
     // Agregar mensaje al grupo existente
     grupoExistente.mensajes.push(mensaje);
     grupoExistente.ultimoMensaje = ahora;
-    
+
     // Crear tarea si hay suficientes mensajes o tiempo transcurrido
     if (grupoExistente.mensajes.length >= 2) {
       return crearTareaDesdeGrupo(grupoExistente, especialista || especialistas.find(e => e.id === 'default'));
     }
-    
+
     guardarTareas(data);
-    
+
     return {
       necesitaTarea: false,
       razon: "agregado_a_grupo_existente",
@@ -197,15 +199,15 @@ function procesarMensaje(texto, userId, nombreUsuario = null, tieneArchivo = fal
       ultimoMensaje: ahora,
       necesitaTarea: true
     };
-    
+
     data.grupos.push(nuevoGrupo);
     guardarTareas(data);
-    
+
     // Para mensajes claramente importantes, crear tarea inmediatamente
     if (tema !== "Consulta General" && especialistaId !== 'default') {
       return crearTareaDesdeGrupo(nuevoGrupo, especialista || especialistas.find(e => e.id === especialistaId));
     }
-    
+
     return {
       necesitaTarea: false,
       razon: "nuevo_grupo_creado",
@@ -224,7 +226,21 @@ function crearTareaDesdeGrupo(grupo, especialistaInfo) {
     telefono: "(33) 3407 0123",
     email: "alex@fgya.com.mx"
   };
-  
+
+  //Funcion para detectar prioridad 26/01/2026 
+  // Detectar prioridad (YA EXISTE)
+  const textoCompleto = grupo.mensajes.map(m => m.texto).join(" ");
+  const prioridad = detectarPrioridad(textoCompleto);
+
+  // Definir estatus inicial según prioridad
+  let estatusInicial = "Pendiente";
+
+  if (prioridad.nivel === "ALTA") {
+    estatusInicial = "Pendiente Urgente";
+  }
+
+
+
   const tarea = {
     id: `tarea_${Date.now()}_${Math.random().toString(36).substr(2, 6)}`,
     grupoId: grupo.id,
@@ -236,25 +252,32 @@ function crearTareaDesdeGrupo(grupo, especialistaInfo) {
       telefono: especialista.telefono,
       email: especialista.email
     },
-    vencimiento: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
-    estatus: "Pendiente",
+    prioridad: {
+      nivel: prioridad.nivel,
+      etiqueta: prioridad.etiqueta,
+      accion: prioridad.accion,
+      confianza: prioridad.confianza
+    },
+    vencimiento: prioridad.vencimiento.toISOString(),
+
+    estatus: estatusInicial,
     fechaCreacion: new Date().toISOString(),
     usuario: {
       whatsappId: grupo.userId,
       nombre: grupo.mensajes[0]?.nombreUsuario || "Usuario"
     }
   };
-  
+
   // Guardar tarea
   const data = cargarTareas();
   data.tareas.push(tarea);
   grupo.necesitaTarea = false;
   grupo.tareaId = tarea.id;
-  
+
   guardarTareas(data);
-  
+
   console.log(`✅ Tarea creada: ${tarea.id} | Responsable: ${tarea.responsable.nombre}`);
-  
+
   return {
     necesitaTarea: true,
     razon: "tarea_creada",
@@ -272,7 +295,7 @@ function obtenerEspecialistaPorId(id) {
       const especialistas = JSON.parse(fs.readFileSync(especialistasPath, "utf8")).especialistas || [];
       return especialistas.find(e => e.id === id) || null;
     }
-  } catch (err) {}
+  } catch (err) { }
   return null;
 }
 

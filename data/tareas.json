@@ -598,6 +598,272 @@
         "whatsappId": "132105073885375@lid",
         "nombre": "Personal"
       }
+    },
+    {
+      "id": "tarea_1769124101563_od8b02",
+      "grupoId": "grupo_1769124101553_noy6as",
+      "titulo": "Atención a clientes",
+      "descripcion": "Quiero información",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-29T23:21:41.564Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-22T23:21:41.566Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769217030196_uekzbg",
+      "grupoId": "grupo_1769217030179_96slpx",
+      "titulo": "Atención a clientes",
+      "descripcion": "Quiero hablar equipo general",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-31T01:10:30.196Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-24T01:10:30.197Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1769217150862_rn6t6v",
+      "grupoId": "grupo_1769217150851_xvu7lk",
+      "titulo": "Facturación",
+      "descripcion": "Este es mi factura del mes",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-31T01:12:30.863Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-24T01:12:30.866Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Usuario"
+      }
+    },
+    {
+      "id": "tarea_1769217177483_db24l3",
+      "grupoId": "grupo_1769216952309_9u3ner",
+      "titulo": "Consulta General",
+      "descripcion": "Que servicios ofrecen\n\nNecesito una auditoría urgente",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "vencimiento": "2026-01-31T01:12:57.483Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-24T01:12:57.483Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1769453600034_liwyov",
+      "grupoId": "grupo_1769453600019_zdb9d6",
+      "titulo": "Facturación",
+      "descripcion": "Necesito urgente la factura para hoy",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": "ALTA",
+      "vencimiento": "2026-01-26T22:53:20.033Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-26T18:53:20.037Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769454403957_on2o8j",
+      "grupoId": "grupo_1769453600019_zdb9d6",
+      "titulo": "Facturación",
+      "descripcion": "Necesito urgente la factura para hoy\n\nNecesito una factura urgente para hoy",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": "ALTA",
+      "vencimiento": "2026-01-26T23:06:43.956Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-26T19:06:43.957Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769460412855_lkg849",
+      "grupoId": "grupo_1769460412676_pcj2in",
+      "titulo": "Facturación",
+      "descripcion": "Necesito urgente una factura",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-27T00:46:52.852Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-26T20:46:52.863Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769460430866_7b9n6c",
+      "grupoId": "grupo_1769460412676_pcj2in",
+      "titulo": "Facturación",
+      "descripcion": "Necesito urgente una factura\n\nNecesito urgente una factura",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-27T00:47:10.866Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-26T20:47:10.866Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769460694411_2atjga",
+      "grupoId": "grupo_1769460450691_iiogl4",
+      "titulo": "Consulta General",
+      "descripcion": "Nececito una auditoria\n\nNecesito una auditoria para mañana",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-01-27T20:51:34.411Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-01-26T20:51:34.413Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769461188642_3dhc8e",
+      "grupoId": "grupo_1769460412676_pcj2in",
+      "titulo": "Facturación",
+      "descripcion": "Necesito urgente una factura\n\nNecesito urgente una factura",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-27T00:59:48.641Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-26T20:59:48.674Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1769472664558_m008hc",
+      "grupoId": "grupo_1769472664548_8nvf39",
+      "titulo": "Facturación",
+      "descripcion": "Necesito una factura urgente",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-27T04:11:04.558Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-27T00:11:04.558Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1769551890717_p7fsr7",
+      "grupoId": "grupo_1769551890698_2x6d0j",
+      "titulo": "Facturación",
+      "descripcion": "Necesito urgente una factura",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-28T02:11:30.716Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-27T22:11:30.718Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
     }
   ],
   "grupos": [
@@ -1552,6 +1818,314 @@
       ],
       "primerMensaje": 1767121353388,
       "ultimoMensaje": 1767121353388,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769124101553_noy6as",
+      "userId": "5213329681342@c.us",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Quiero información",
+          "timestamp": 1769124101553,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769124101553,
+      "ultimoMensaje": 1769124101553,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769124157002_wbvgcn",
+      "userId": "5213329681342@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Contactar",
+          "timestamp": 1769124157002,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769124157002,
+      "ultimoMensaje": 1769124157002,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769216952309_9u3ner",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Que servicios ofrecen",
+          "timestamp": 1769216952309,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769216952309,
+      "ultimoMensaje": 1769216952309,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769217030179_96slpx",
+      "userId": "5213331270128@c.us",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Quiero hablar equipo general",
+          "timestamp": 1769217030179,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769217030179,
+      "ultimoMensaje": 1769217030179,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769217150851_xvu7lk",
+      "userId": "5213331270128@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Este es mi factura del mes",
+          "timestamp": 1769217150851,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "Este es mi factura del mes_1769217147689.jpg",
+            "link": null,
+            "tipo": "image/jpeg"
+          }
+        }
+      ],
+      "primerMensaje": 1769217150851,
+      "ultimoMensaje": 1769217150851,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769218245008_58tc38",
+      "userId": "120363297590069688@newsletter",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "🎀 ¿SEGUIMOS SUBIENDO STICKERS? 🎀\n\n🐰💗 SÍÍ, QUIERO MÁS 💗🐰\n🌸✨ DESPUÉS, CON CALMITA ✨🌸\n\n⬆️ Reacciona arriba si amas los stickers ⬆️ 🥹💞",
+          "timestamp": 1769218245008,
+          "nombreUsuario": "STICKERS",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769218245008,
+      "ultimoMensaje": 1769218245008,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769218968143_wp2ln3",
+      "userId": "120363181294944798@newsletter",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "🚨 AVISO IMPORTANTE 🚨\n\nRecientemente hemos notado cómo WhatsApp y Facebook están eliminando canales y grupos sin previo aviso 😰\n\nPor eso decidimos crear un CANAL DE RESPALDO 🔐\n\n⚠️ OJO:\nEse canal de respaldo NO tendrá publicaciones por ahora, es solo preventivo.\n👉 *Este canal seguirá operando con total normalidad como siempre*🔥\n\nPero es importante que te unas al respaldo por cualquier emergencia.\n\nMás vale prevenir que lamentar. Únete de una vez 📌 https://whatsapp.com/channel/0029VbBrk7M0rGiMX8n91p0T",
+          "timestamp": 1769218968143,
+          "nombreUsuario": "Liquidaciones de ML",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769218968143,
+      "ultimoMensaje": 1769218968143,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769453600019_zdb9d6",
+      "userId": "5213329681342@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Necesito urgente la factura para hoy",
+          "timestamp": 1769453600019,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769453600019,
+      "ultimoMensaje": 1769453600019,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769454365682_tnsxby",
+      "userId": "5213329681342@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito una adutitoris",
+          "timestamp": 1769454365682,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769454365682,
+      "ultimoMensaje": 1769454365682,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769456730467_w2g6eu",
+      "userId": "120363144038483540@newsletter",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "*Peek inside the Mercedes-AMG PETRONAS F1 Team garage 🏁*\nBarcelona Shakedown is off limits to fans—but we’re giving you a chance to go behind the scenes. Tune in to hear the team’s reaction after their day at track, straight from those at the circuit. ⬇️",
+          "timestamp": 1769456730467,
+          "nombreUsuario": "WhatsApp",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769456730467,
+      "ultimoMensaje": 1769456730467,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769460412676_pcj2in",
+      "userId": "5213329681342@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Necesito urgente una factura",
+          "timestamp": 1769460412676,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769460412676,
+      "ultimoMensaje": 1769460412676,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769460450691_iiogl4",
+      "userId": "5213329681342@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Nececito una auditoria",
+          "timestamp": 1769460450691,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769460450691,
+      "ultimoMensaje": 1769460450691,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769461149413_jvu7e0",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito una auditoría urgente",
+          "timestamp": 1769461149413,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769461149413,
+      "ultimoMensaje": 1769461149413,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769471621280_ex2610",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito una auditoría urgente",
+          "timestamp": 1769471621280,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769471621280,
+      "ultimoMensaje": 1769471621280,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769472664548_8nvf39",
+      "userId": "5213331270128@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Necesito una factura urgente",
+          "timestamp": 1769472664548,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769472664548,
+      "ultimoMensaje": 1769472664548,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769551890698_2x6d0j",
+      "userId": "5213329681342@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Necesito urgente una factura",
+          "timestamp": 1769551890698,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769551890698,
+      "ultimoMensaje": 1769551890698,
       "necesitaTarea": true
     }
   ]
