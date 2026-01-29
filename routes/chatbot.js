@@ -12,6 +12,7 @@ const OpenAI = require("openai").default;
 const axios = require("axios");
 const taskManager = require("../utils/taskManager");
 const groupManager = require("../utils/groupManager");
+const FAQHandler = require("../utils/faqHandler");
 
 
 
@@ -22,8 +23,15 @@ if (!process.env.OPENAI_API_KEY) {
 }
 console.log("✅ Clave OpenAI detectada correctamente");
 
+
+
 // === Inicializar cliente de OpenAI ===
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// === Inicializar FAQ Handler === //27/01/2026
+const faqHandler = new FAQHandler();
+console.log("✅ Sistema de respuestas automáticas (FAQ) inicializado");
+
 
 // === CONFIGURACIÓN DE NOTIFICACIONES A ESPECIALISTAS ===
 const TELEFONOS_NOTIFICACION = {
@@ -1290,6 +1298,41 @@ Responde con un tono profesional, amable y claro. Si el usuario pregunta sobre s
       }
 
       console.log(`💬 Mensaje de texto recibido: ${texto.substring(0, 50)}...`);
+
+      // ============================================
+      // SISTEMA DE RESPUESTAS AUTOMÁTICAS (FAQ)
+      // ============================================
+      try {
+        const resultadoFAQ = faqHandler.procesarMensaje(texto);
+        
+        if (resultadoFAQ.esRespuestaAutomatica) {
+          console.log(`✅ FAQ activada: ${resultadoFAQ.faqNombre} (${resultadoFAQ.faqId})`);
+          console.log(`💰 Ahorro: No se usó OpenAI para este mensaje`);
+          
+          // Determinar destinatario (grupo o chat individual)
+          const destinoRespuesta = esGrupo ? grupoId : message.from;
+          
+          // Enviar respuesta automática
+          await client.sendText(destinoRespuesta, resultadoFAQ.respuesta);
+          
+          console.log(`✅ Respuesta FAQ enviada exitosamente`);
+          
+          // NO crear tarea
+          // NO notificar especialistas
+          // NO usar OpenAI
+          // Fin del procesamiento
+          return;
+        }
+        
+        console.log(`ℹ️ Mensaje no es FAQ (${resultadoFAQ.razon}), procesando con IA...`);
+        
+      } catch (faqErr) {
+        console.error("⚠️ Error en sistema FAQ, continuando con IA:", faqErr.message);
+        // Si hay error en FAQ, continuar con el flujo normal de IA
+      }
+      // ============================================
+      // FIN SISTEMA FAQ
+      // ============================================
 
       
       const userId = esGrupo ? (message.author || message.from) : message.from;
