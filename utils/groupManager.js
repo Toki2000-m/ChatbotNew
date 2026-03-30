@@ -46,6 +46,34 @@ function guardarGrupos(data) {
   }
 }
 
+// ============================================================================
+// 🔽 AGREGADO: FUNCIÓN REGISTRAR GRUPO (Soluciona el error is not a function)
+// ============================================================================
+function registrarGrupo(grupo) {
+  try {
+    const data = cargarGrupos();
+    
+    // Verificar si el grupo ya existe
+    const index = data.grupos.findIndex(g => g.id === grupo.id);
+    
+    if (index !== -1) {
+      // Si ya existe, actualizamos los datos
+      data.grupos[index] = { ...data.grupos[index], ...grupo };
+      console.log(`🔄 Grupo actualizado en BD: ${grupo.nombre}`);
+    } else {
+      // Si no existe, lo agregamos
+      data.grupos.push(grupo);
+      console.log(`💾 Nuevo grupo registrado en BD: ${grupo.nombre}`);
+    }
+
+    return guardarGrupos(data);
+  } catch (error) {
+    console.error('❌ Error en registrarGrupo:', error);
+    return false;
+  }
+}
+// ============================================================================
+
 // === Obtener información del grupo (nombre y miembros) ===
 async function obtenerInfoGrupo(client, grupoId) {
   try {
@@ -622,6 +650,7 @@ if (!fs.existsSync(GROUPS_STORAGE_PATH)) {
 }
 
 module.exports = {
+  registrarGrupo,
   crearGrupoWhatsApp,
   obtenerGrupoPorId,
   obtenerGrupoPorCliente,
@@ -636,6 +665,7 @@ module.exports = {
   desactivarIA,
   programarReactivacionIA,
   actualizarActividadEspecialista,
+  cargarGrupos,
   GROUP_STATES,
   INACTIVITY_TIMEOUT
 };

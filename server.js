@@ -1,7 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
-const { create } = require('@open-wa/wa-automate');
+const { Client, LocalAuth } = require('whatsapp-web.js');
+const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const path = require('path');
 
@@ -10,7 +11,7 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 3000;
 
-// ⚙️ Información de la empresa
+// ⚙️ Información de la empresa (sin cambios)
 const empresaInfo = {
   nombre: "Figueroa González y Asociados, S.C. (FGYA)",
   marcaCorta: "FGYA",
@@ -53,219 +54,226 @@ const empresaInfo = {
 };
 
 // ============================================
-// 🛠️ FUNCIÓN PARA LIMPIAR SESIONES
+// 🔧 WRAPPER DE COMPATIBILIDAD
 // ============================================
+function crearClienteCompatible(wwejsClient) {
+  return {
 
-function limpiarSesiones() {
-  console.log('🧹 Limpiando sesiones anteriores...');
-  
-  // Carpetas a eliminar
-  const carpetas = [
-    '_IGNORE_FGYA-Bot',
-    '.wwebjs_auth',
-    path.join(__dirname, '_IGNORE_FGYA-Bot'),
-    path.join(__dirname, '.wwebjs_auth')
-  ];
-  
-  // Archivos a eliminar
-  const archivos = [
-    'FGYA-Bot.data.json',
-    path.join(__dirname, 'FGYA-Bot.data.json'),
-    'session.json',
-    path.join(__dirname, 'session.json')
-  ];
-  
-  let eliminados = 0;
-  
-  // Eliminar carpetas
-  carpetas.forEach(carpeta => {
-    if (fs.existsSync(carpeta)) {
+    sendText: async (to, text) => {
+      return await wwejsClient.sendMessage(to, text);
+    },
+
+    onMessage: (callback) => {
+      wwejsClient.on('message', async (msg) => {
+
+        // ⛔ Filtro 1: ignorar mensajes de estados/historias
+        // Los estados llegan con from terminado en @broadcast o status@broadcast
+        if (msg.from === 'status@broadcast') return;
+        if (msg.from && msg.from.includes('@broadcast')) return;
+
+        // ⛔ Filtro 2: ignorar mensajes históricos (más de 30 segundos)
+        const ahora = Math.floor(Date.now() / 1000);
+        if (ahora - msg.timestamp > 30) return;
+
+        // ⛔ Filtro 3: ignorar tipos que no son mensajes reales
+        const tiposIgnorar = ['e2e_notification', 'notification_template', 'call_log', 'protocol'];
+        if (tiposIgnorar.includes(msg.type)) return;
+
+        try {
+          const chat = await msg.getChat();
+
+          // Adaptar mensaje al formato @open-wa que espera tu chatbot.js
+          const mensajeAdaptado = {
+            body: msg.body || '',
+            caption: msg.body || '',
+            from: msg.from,
+            fromMe: msg.fromMe,
+            type: msg.type,
+            id: msg.id._serialized || msg.id,
+            timestamp: msg.timestamp,
+
+            // Grupos
+            isGroupMsg: chat.isGroup || false,
+            chatId: msg.from,
+            author: msg.author || msg.from,
+            chat: { isGroup: chat.isGroup },
+
+            // Archivos — hasMedia es el flag correcto en wwejs
+            hasMedia: msg.hasMedia,
+            isMedia: msg.hasMedia,
+            mimetype: msg.hasMedia ? (msg._data?.mimetype || null) : null,
+            filename: msg.hasMedia ? (msg._data?.filename || null) : null,
+            mediaType: msg.hasMedia ? msg.type : null,
+
+            // ✅ Guardamos referencia al msg original para poder descargar
+            _originalMsg: msg,
+          };
+
+          await callback(mensajeAdaptado);
+        } catch (err) {
+          console.error('⚠️ Error adaptando mensaje:', err.message);
+        }
+      });
+    },
+
+    // ✅ FIX: ahora usa _originalMsg para descargar correctamente
+    decryptMedia: async (message) => {
+      const originalMsg = message._originalMsg;
+      if (!originalMsg) throw new Error('Mensaje sin referencia original');
+      const media = await originalMsg.downloadMedia();
+      if (!media || !media.data) throw new Error('No se pudo descargar el archivo');
+      // Devolver Buffer igual que @open-wa
+      return Buffer.from(media.data, 'base64');
+    },
+
+    downloadMedia: async (messageId) => {
+      throw new Error('Usa decryptMedia en su lugar');
+    },
+
+    getContact: async (id) => {
       try {
-        fs.rmSync(carpeta, { recursive: true, force: true });
-        console.log(`✅ Eliminada carpeta: ${carpeta}`);
-        eliminados++;
+        const contact = await wwejsClient.getContactById(id);
+        return {
+          name: contact.name || contact.pushname || null,
+          pushname: contact.pushname || null,
+          number: contact.number || null,
+          id: { _serialized: id }
+        };
       } catch (err) {
-        console.warn(`⚠️ No se pudo eliminar ${carpeta}:`, err.message);
+        return null;
       }
-    }
-  });
-  
-  // Eliminar archivos
-  archivos.forEach(archivo => {
-    if (fs.existsSync(archivo)) {
+    },
+
+    getChatById: async (id) => {
       try {
-        fs.unlinkSync(archivo);
-        console.log(`✅ Eliminado archivo: ${archivo}`);
-        eliminados++;
+        const chat = await wwejsClient.getChatById(id);
+        return {
+          name: chat.name || null,
+          description: chat.description || null,
+          isGroup: chat.isGroup || false,
+          id: { _serialized: id },
+          groupMetadata: chat.groupMetadata || null
+        };
       } catch (err) {
-        console.warn(`⚠️ No se pudo eliminar ${archivo}:`, err.message);
+        return null;
       }
-    }
-  });
-  
-  if (eliminados > 0) {
-    console.log(`✅ Total eliminado: ${eliminados} elementos`);
-  } else {
-    console.log('✅ No se encontraron sesiones antiguas');
-  }
+    },
+
+    getAllChats: async () => {
+      try {
+        const chats = await wwejsClient.getChats();
+        return chats.map(c => ({
+          id: { _serialized: c.id._serialized },
+          name: c.name || null,
+          isGroup: c.isGroup || false
+        }));
+      } catch (err) {
+        return [];
+      }
+    },
+
+    onStateChanged: (callback) => {
+      wwejsClient.on('change_state', callback);
+    },
+
+    forceRefocus: () => {
+      console.log('ℹ️ forceRefocus ignorado (no disponible en whatsapp-web.js)');
+    },
+
+    _wwejsClient: wwejsClient
+  };
 }
 
 // ============================================
-// 🚀 INICIAR WHATSAPP (SIN CHROME VISIBLE)
+// 🚀 INICIAR WHATSAPP
 // ============================================
-
 async function iniciarWhatsApp() {
   try {
     console.log('🚀 Iniciando WhatsApp Bot FGYA...');
-    
-    // Limpiar sesiones antes de iniciar (IMPORTANTE)
-    limpiarSesiones();
-    
-    // CONFIGURACIÓN QUE SOLUCIONA EL TIMEOUT
-    const launchConfig = {
-      sessionId: 'FGYA-Bot',
-      multiDevice: true,
-      headless: true, // Sin ventana de Chrome
-      qrTimeout: 60, // 60 segundos para QR
-      authTimeout: 60, // 60 segundos para autenticación
-      skipOwnMessages: false,
-      logConsole: false,
-      debug: false,
-      cacheEnabled: false,
-      useChrome: false, // No usar Chrome del sistema
-      killProcessOnBrowserClose: true,
-      restartOnCrash: true,
-      throwErrorOnTosBlock: false,
-      disableSpins: false,
-      
-      // Argumentos mínimos para evitar problemas
-      chromiumArgs: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        '--disable-accelerated-2d-canvas',
-        '--no-first-run',
-        '--no-zygote'
-      ],
-      
-      // Callback para el QR
-      onQr: (qr) => {
-        console.log('\n=========================================');
-        console.log('📱 ESCANEA ESTE CÓDIGO QR CON WHATSAPP');
-        console.log('=========================================\n');
-        
-        // Mostrar QR en terminal si hay qrcode-terminal
-        try {
-          const qrcode = require('qrcode-terminal');
-          qrcode.generate(qr, { small: true });
-        } catch (err) {
-          console.log('⚠️ Para ver el QR en terminal, instala: npm install qrcode-terminal');
-          console.log('🔗 También puedes abrir esta URL en tu navegador:');
-          console.log(`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(qr)}`);
-        }
-        
-        console.log('\n⏰ Tienes 60 segundos para escanear...');
-      },
-      
-      onLoadingScreen: (percent) => {
-        console.log(`📱 Cargando WhatsApp: ${percent}%`);
-      },
-      
-      onAuthentication: () => {
-        console.log('✅ Autenticación exitosa! WhatsApp conectado.');
-      }
-    };
-    
-    console.log('⚙️ Configuración cargada. Iniciando conexión...');
-    
-    // Crear cliente
-    const client = await create(launchConfig);
-    
-    console.log('🎉 WhatsApp conectado exitosamente!');
-    
-    // Manejar cambios de estado
-    client.onStateChanged((state) => {
-      console.log(`📱 Estado: ${state}`);
-      
-      switch(state) {
-        case 'CONNECTED':
-          console.log('✅ Conectado y listo para recibir mensajes');
-          break;
-        case 'CONFLICT':
-          console.log('⚠️ Conflicto detectado, forzando refocus...');
-          client.forceRefocus();
-          break;
-        case 'UNPAIRED':
-          console.log('🔓 Necesitas escanear QR nuevamente');
-          break;
-        case 'DISCONNECTED':
-          console.log('❌ Desconectado');
-          break;
+
+    const wwejsClient = new Client({
+      authStrategy: new LocalAuth({ clientId: 'FGYA-Bot' }),
+      puppeteer: {
+        headless: true,
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-dev-shm-usage',
+          '--disable-accelerated-2d-canvas',
+          '--no-first-run',
+          '--no-zygote'
+        ]
       }
     });
-    
-    // Iniciar el chatbot
-    console.log('🤖 Iniciando sistema de chatbot...');
-    require('./routes/chatbot')(client, empresaInfo);
-    
-    return client;
-    
+
+    wwejsClient.on('qr', (qr) => {
+      console.log('\n=========================================');
+      console.log('📱 ESCANEA ESTE CÓDIGO QR CON WHATSAPP');
+      console.log('=========================================\n');
+      qrcode.generate(qr, { small: true });
+      console.log('\n⏰ Tienes tiempo para escanear...');
+    });
+
+    wwejsClient.on('authenticated', () => {
+      console.log('✅ Autenticación exitosa! Sesión guardada.');
+    });
+
+    wwejsClient.on('auth_failure', (msg) => {
+      console.error('❌ Error de autenticación:', msg);
+      setTimeout(() => iniciarWhatsApp(), 30000);
+    });
+
+    wwejsClient.on('ready', () => {
+      console.log('🎉 WhatsApp conectado exitosamente!');
+
+      const client = crearClienteCompatible(wwejsClient);
+
+      client.onStateChanged((state) => {
+        console.log(`📱 Estado: ${state}`);
+        if (state === 'CONFLICT') client.forceRefocus();
+      });
+
+      console.log('🤖 Iniciando sistema de chatbot...');
+      require('./routes/chatbot')(client, empresaInfo);
+    });
+
+    wwejsClient.on('disconnected', (reason) => {
+      console.log('❌ Desconectado:', reason);
+      console.log('🔄 Reintentando en 30 segundos...');
+      setTimeout(() => iniciarWhatsApp(), 30000);
+    });
+
+    console.log('⚙️ Configuración cargada. Iniciando conexión...');
+    await wwejsClient.initialize();
+
+    return wwejsClient;
+
   } catch (error) {
     console.error('\n❌ ERROR al iniciar WhatsApp:', error.message);
-    
-    // Análisis específico para timeout
-    if (error.message.includes('timeout') || error.name === 'TimeoutError') {
-      console.log('\n🔍 DIAGNÓSTICO: Timeout al conectar con WhatsApp Web');
-      console.log('🔧 SOLUCIONES RECOMENDADAS:');
-      console.log('1. Verifica tu conexión a internet');
-      console.log('2. Intenta con estos cambios en la configuración:');
-      console.log('   - Cambia headless: true a headless: false (temporalmente)');
-      console.log('   - Aumenta qrTimeout y authTimeout a 120');
-      console.log('3. Elimina manualmente la carpeta: _IGNORE_FGYA-Bot');
-      console.log('4. Espera 5 minutos y vuelve a intentar');
-    }
-    
-    // Reintentar en 30 segundos
     console.log('\n🔄 Reintentando en 30 segundos...');
-    setTimeout(() => {
-      console.log('🔄 Reiniciando WhatsApp...');
-      iniciarWhatsApp();
-    }, 30000);
-    
+    setTimeout(() => iniciarWhatsApp(), 30000);
     return null;
   }
 }
 
 // ============================================
-// 📡 INICIAR SERVIDOR EXPRESS
+// 📡 SERVIDOR EXPRESS (sin cambios)
 // ============================================
-
 app.listen(PORT, () => {
   console.log(`🚀 Servidor FGYA corriendo en http://localhost:${PORT}`);
   console.log(`📅 ${new Date().toLocaleString()}`);
 });
 
-// Ruta de estado
 app.get('/status', (req, res) => {
-  res.json({
-    status: 'running',
-    service: 'FGYA WhatsApp Bot',
-    version: '1.0',
-    port: PORT,
-    timestamp: new Date().toISOString()
-  });
+  res.json({ status: 'running', service: 'FGYA WhatsApp Bot', version: '2.0', port: PORT, timestamp: new Date().toISOString() });
 });
 
-// Ruta para forzar limpieza
 app.get('/clean', (req, res) => {
-  limpiarSesiones();
-  res.json({ message: 'Limpieza realizada', timestamp: new Date().toISOString() });
+  res.json({ message: 'Limpieza no necesaria con whatsapp-web.js', timestamp: new Date().toISOString() });
 });
 
-// Iniciar WhatsApp
 iniciarWhatsApp();
 
-// Manejo de errores globales
 process.on('uncaughtException', (err) => {
   console.error('❌ Error no capturado:', err.message);
 });
@@ -274,7 +282,6 @@ process.on('unhandledRejection', (reason, promise) => {
   console.error('❌ Promesa rechazada:', reason);
 });
 
-// Manejar cierre limpio
 process.on('SIGINT', () => {
   console.log('\n👋 Apagando servidor FGYA...');
   process.exit(0);

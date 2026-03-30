@@ -12,8 +12,8 @@ const OpenAI = require("openai").default;
 const axios = require("axios");
 const taskManager = require("../utils/taskManager");
 const groupManager = require("../utils/groupManager");
-const FAQHandler = require("../utils/faqHandler");
-
+const FAQHandler = require("../services/faqHandler");
+const AutoResponsesHandler = require("../services/autoResponses"); // ← NUEVA LÍNEA
 
 
 // === Verificar clave de OpenAI ===
@@ -31,6 +31,10 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 // === Inicializar FAQ Handler === //27/01/2026
 const faqHandler = new FAQHandler();
 console.log("✅ Sistema de respuestas automáticas (FAQ) inicializado");
+
+// === Inicializar AutoResponses Handler ===
+const autoResponsesHandler = new AutoResponsesHandler(); // ← NUEVA LÍNEA
+console.log("✅ Sistema de auto-respuestas contextuales inicializado"); // ← NUEVA LÍNEA
 
 
 // === CONFIGURACIÓN DE NOTIFICACIONES A ESPECIALISTAS ===
@@ -107,7 +111,7 @@ async function registrarGrupoAutomaticamente(client, grupoId) {
       tema: grupoInfo?.name || "Consultas generales",
       fechaCreacion: new Date().toISOString(),
       fechaRegistro: new Date().toISOString(),
-      estado: "activo",
+      estado: "ia_activa", // <--- CÁMBIALO POR ESTO EXACTAMENTE
       iaActiva: true,
       ultimaActividad: new Date().toISOString(),
       participantes: [],
@@ -1300,32 +1304,154 @@ Responde con un tono profesional, amable y claro. Si el usuario pregunta sobre s
       console.log(`💬 Mensaje de texto recibido: ${texto.substring(0, 50)}...`);
 
       // ============================================
-      // SISTEMA DE RESPUESTAS AUTOMÁTICAS (FAQ)
+      // PASO 1: SISTEMA DE AUTO-RESPUESTAS (PRIORIDAD 1)
+      // Para clientes EXISTENTES con trámites activos
+      // ============================================
+      try {
+        // Preparar contexto para auto-respuestas
+        let especialistaContexto = null;
+
+        // Intentar obtener especialista del grupo si es mensaje de grupo
+        // Intentar obtener especialista del grupo si es mensaje de grupo
+        let grupoActual = null;
+        if (esGrupo && grupoId) {
+          grupoActual = groupManager.obtenerGrupoPorId(grupoId);
+        }
+
+        if (esGrupo && grupoActual) {  // ← Cambiar 'grupo' por 'grupoActual'
+          try {
+            const especialistasPath = path.join(__dirname, "..", "config", "especialistas.json");
+            if (fs.existsSync(especialistasPath)) {
+              const especialistasData = JSON.parse(fs.readFileSync(especialistasPath, "utf8"));
+              especialistaContexto = especialistasData.especialistas.find(e => e.id === grupoActual.especialistaId);
+            }
+          } catch (espErr) {
+            console.warn("⚠️ Error al cargar especialista del grupo:", espErr.message);
+          }
+        }
+        // ✅ FIX 2: Obtener nombreUsuario ANTES de crear el contexto
+        let nombreUsuario = null;
+        try {
+          const contact = await client.getContact(message.from);
+          nombreUsuario = contact?.name || contact?.pushname || 'Cliente';
+        } catch (contactErr) {
+          nombreUsuario = 'Cliente';
+        }
+
+        // Crear contexto
+        const context = {
+          especialista: especialistaContexto || {
+            nombre: 'Equipo FGYA',
+            email: empresaInfo.emailGeneral || 'equipo@fgya.com.mx'
+          },
+          nombreCliente: nombreUsuario  // ← AHORA SÍ EXISTE
+        };
+
+        // Verificar auto-respuestas
+        const autoResp = autoResponsesHandler.procesarMensaje(texto, context);
+
+        if (autoResp.esAutoRespuesta) {
+          console.log(`✅ AUTO-RESPUESTA activada: ${autoResp.autoRespuestaNombre} (${autoResp.autoRespuestaId})`);
+          console.log(`💰 Ahorro: No se usó OpenAI para este mensaje`);
+          console.log(`📋 Crear tarea: ${autoResp.crearTarea ? 'SÍ' : 'NO'}`);
+
+          // Determinar destinatario (grupo o chat individual)
+          const destinoRespuesta = esGrupo ? grupoId : message.from;
+
+          // Enviar respuesta automática
+          await client.sendText(destinoRespuesta, autoResp.respuesta);
+          console.log(`✅ Auto-respuesta enviada exitosamente`);
+
+          // CREAR TAREA si es necesario
+          // CREAR TAREA si es necesario
+          if (autoResp.crearTarea) {
+            try {
+              // ✅ FIX: Definir userId correctamente
+              const userId = esGrupo ? (message.author || message.from) : message.from;
+
+              // ✅ FIX: Obtener nombreUsuario
+              let nombreUsuario = null;
+              try {
+                const contact = await client.getContact(message.from);
+                nombreUsuario = contact?.name || contact?.pushname || 'Cliente';
+              } catch (contactErr) {
+                nombreUsuario = 'Cliente';
+              }
+
+              // Procesar mensaje con taskManager para crear tarea
+              const resultadoTarea = taskManager.procesarMensaje(
+                texto,
+                userId,        // ✅ Ahora SÍ está definido
+                nombreUsuario, // ✅ Ahora SÍ está definido
+                false,
+                null
+              );
+
+              if (resultadoTarea.necesitaTarea && resultadoTarea.tarea) {
+                const enviado = await enviarTareaAPowerAutomate(resultadoTarea.tarea);
+                if (enviado) {
+                  console.log(`✅ Tarea creada desde auto-respuesta: ${resultadoTarea.tarea.id}`);
+                  console.log(`   Responsable: ${resultadoTarea.tarea.responsable.nombre}`);
+                }
+
+                // Notificar especialista
+                if (resultadoTarea.especialista) {
+                  await notificarEspecialistasRelevantes(
+                    client,
+                    texto,
+                    userId,
+                    nombreUsuario,
+                    resultadoTarea.especialista
+                  );
+                }
+              }
+            } catch (tareaErr) {
+              console.error("⚠️ Error al crear tarea desde auto-respuesta:", tareaErr.message);
+            }
+          }
+
+          // Fin del procesamiento - NO continuar con FAQ ni IA
+          return;
+        }
+
+        console.log(`ℹ️ Mensaje no es auto-respuesta, verificando FAQ...`);
+
+      } catch (autoRespErr) {
+        console.error("⚠️ Error en sistema AutoResponses, continuando con FAQ:", autoRespErr.message);
+        // Si hay error, continuar con FAQ
+      }
+      // ============================================
+      // FIN AUTO-RESPUESTAS
+      // ============================================
+
+      // ============================================
+      // PASO 2: SISTEMA DE RESPUESTAS AUTOMÁTICAS (FAQ) (PRIORIDAD 2)
+      // Para clientes NUEVOS o preguntas informativas
       // ============================================
       try {
         const resultadoFAQ = faqHandler.procesarMensaje(texto);
-        
+
         if (resultadoFAQ.esRespuestaAutomatica) {
           console.log(`✅ FAQ activada: ${resultadoFAQ.faqNombre} (${resultadoFAQ.faqId})`);
           console.log(`💰 Ahorro: No se usó OpenAI para este mensaje`);
-          
+
           // Determinar destinatario (grupo o chat individual)
           const destinoRespuesta = esGrupo ? grupoId : message.from;
-          
+
           // Enviar respuesta automática
           await client.sendText(destinoRespuesta, resultadoFAQ.respuesta);
-          
+
           console.log(`✅ Respuesta FAQ enviada exitosamente`);
-          
+
           // NO crear tarea
           // NO notificar especialistas
           // NO usar OpenAI
           // Fin del procesamiento
           return;
         }
-        
+
         console.log(`ℹ️ Mensaje no es FAQ (${resultadoFAQ.razon}), procesando con IA...`);
-        
+
       } catch (faqErr) {
         console.error("⚠️ Error en sistema FAQ, continuando con IA:", faqErr.message);
         // Si hay error en FAQ, continuar con el flujo normal de IA
@@ -1334,7 +1460,6 @@ Responde con un tono profesional, amable y claro. Si el usuario pregunta sobre s
       // FIN SISTEMA FAQ
       // ============================================
 
-      
       const userId = esGrupo ? (message.author || message.from) : message.from;
       const grupo = esGrupo ? groupManager.obtenerGrupoPorId(grupoId) : null;
 

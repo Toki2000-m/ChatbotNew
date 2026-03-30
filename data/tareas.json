@@ -864,6 +864,1331 @@
         "whatsappId": "5213329681342@c.us",
         "nombre": "Santi Nuevo 2"
       }
+    },
+    {
+      "id": "tarea_1769561112064_2x67j4",
+      "grupoId": "grupo_1769561047273_f7wd4q",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito urgente una auditoría\n\nHacen auditorías ?",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-28T04:45:12.064Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-28T00:45:12.065Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1769645773964_damjw4",
+      "grupoId": "grupo_1769645754986_idjoe8",
+      "titulo": "Consulta General",
+      "descripcion": "Okis. Necesito una auditoría urgente\n\nHacen auditorías ?",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-29T04:16:13.964Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-29T00:16:13.964Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1769645803983_kkbfbo",
+      "grupoId": "grupo_1769645754986_idjoe8",
+      "titulo": "Consulta General",
+      "descripcion": "Okis. Necesito una auditoría urgente\n\nNecesito un técnico para la inspección",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "ALTA",
+        "etiqueta": "URGENTE",
+        "accion": "ESCALAR",
+        "confianza": 0.9
+      },
+      "vencimiento": "2026-01-29T04:16:43.983Z",
+      "estatus": "Pendiente Urgente",
+      "fechaCreacion": "2026-01-29T00:16:43.984Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1770153520998_i6a1mj",
+      "grupoId": "grupo_1770153520954_2zedje",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "El contador me dice que este Json no es correcto",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T21:18:40.997Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T21:18:41.003Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770155562853_ebbbv5",
+      "grupoId": "grupo_1770155562414_3s6ymh",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Mis json fueron rechazados",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T21:52:42.846Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T21:52:42.872Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770155738175_ckg12s",
+      "grupoId": "grupo_1770155738124_205ifj",
+      "titulo": "Facturación",
+      "descripcion": "Me pueden compartir la factura de este mes",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T21:55:38.175Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T21:55:38.178Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770156715324_1j4yin",
+      "grupoId": "grupo_1770155562414_3s6ymh",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Mis json fueron rechazados\n\nYa envié las cartas porte en xml y json Puedes verificar",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T22:11:55.323Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T22:11:55.329Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770157209039_wgso5b",
+      "grupoId": "grupo_1770157208934_x7ma22",
+      "titulo": "Atención a clientes",
+      "descripcion": "Tengo duda al subir información en el portal ope del transporte",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "BAJA",
+        "etiqueta": "INFORMATIVO",
+        "accion": "AUTO_RESPUESTA",
+        "confianza": 0.7
+      },
+      "vencimiento": "2026-02-06T22:20:09.039Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T22:20:09.051Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770157395326_yoenec",
+      "grupoId": "grupo_1770157395190_kdj2wd",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Hay una manual o como debo subir la info al portal de ope",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T22:23:15.317Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T22:23:15.333Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770159106995_hj18v7",
+      "grupoId": "grupo_1770159106963_dh72a5",
+      "titulo": "Atención a clientes",
+      "descripcion": "Tengo una duda al subir la información en ek portal ope",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "BAJA",
+        "etiqueta": "INFORMATIVO",
+        "accion": "AUTO_RESPUESTA",
+        "confianza": 0.7
+      },
+      "vencimiento": "2026-02-06T22:51:46.994Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T22:51:46.998Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770159139423_rwvrdf",
+      "grupoId": "grupo_1770157395190_kdj2wd",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Hay una manual o como debo subir la info al portal de ope\n\nBuenas noches me pide el contador esos datos para llenar el formato para poder subir los json",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T22:52:19.422Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T22:52:19.423Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770159153501_mhc6ol",
+      "grupoId": "grupo_1770157395190_kdj2wd",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Hay una manual o como debo subir la info al portal de ope\n\nTienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T22:52:33.501Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T22:52:33.501Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770159741799_qymdvl",
+      "grupoId": "grupo_1770159741777_uolbum",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Buenas noches me pide el contador esos datos para llenar el formato para poder subir los json",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T23:02:21.798Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T23:02:21.800Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770159750741_agrgt3",
+      "grupoId": "grupo_1770159741777_uolbum",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Buenas noches me pide el contador esos datos para llenar el formato para poder subir los json\n\nTienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T23:02:30.741Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T23:02:30.741Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770159852754_lgncsb",
+      "grupoId": "grupo_1770159741777_uolbum",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Buenas noches me pide el contador esos datos para llenar el formato para poder subir los json\n\nError en portal OPE",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T23:04:12.753Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T23:04:12.755Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770162376167_s2az7v",
+      "grupoId": "grupo_1770162375941_vs1z21",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T23:46:16.158Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T23:46:16.167Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1770162388892_wzd3y2",
+      "grupoId": "grupo_1770162375941_vs1z21",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025\n\nBuenas noches me pide el contador esos datos para llenar el formato para poder subir los json",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T23:46:28.892Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T23:46:28.892Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1770163107360_u775or",
+      "grupoId": "grupo_1770162375941_vs1z21",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025\n\nTienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-04T23:58:27.359Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-03T23:58:27.362Z",
+      "usuario": {
+        "whatsappId": "5213331270128@c.us",
+        "nombre": "Mama"
+      }
+    },
+    {
+      "id": "tarea_1770167702353_29ec9c",
+      "grupoId": "grupo_1770167702330_49dehj",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T01:15:02.350Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T01:15:02.356Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770167755567_3epud4",
+      "grupoId": "grupo_1770167702330_49dehj",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025\n\nError portal OPE: no se que documentos me faltan",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T01:15:55.567Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T01:15:55.567Z",
+      "usuario": {
+        "whatsappId": "5213329681342@c.us",
+        "nombre": "Santi Nuevo 2"
+      }
+    },
+    {
+      "id": "tarea_1770170138595_jar9aj",
+      "grupoId": "grupo_1770170138572_ur0qz3",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Error portal OPE: no se que documentos me faltan",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T01:55:38.593Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T01:55:38.602Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770170332655_ksvtek",
+      "grupoId": "grupo_1770170197704_uij0tv",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito info de que es asea\n\nCarpeta sasiopa",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T01:58:52.653Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T01:58:52.660Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770170410735_qm0o9d",
+      "grupoId": "grupo_1770170197704_uij0tv",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito info de que es asea\n\nPorque fue rechazaso mi jsn",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T02:00:10.735Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T02:00:10.738Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770170412092_4tjo4c",
+      "grupoId": "grupo_1770170138572_ur0qz3",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Error portal OPE: no se que documentos me faltan\n\nJson",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T02:00:12.092Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T02:00:12.092Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770170430899_ufk1nt",
+      "grupoId": "grupo_1770170138572_ur0qz3",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Error portal OPE: no se que documentos me faltan\n\nComo subir jsn al sat",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T02:00:30.899Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T02:00:30.899Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770170440582_7j4i4v",
+      "grupoId": "grupo_1770170138572_ur0qz3",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Error portal OPE: no se que documentos me faltan\n\nJson",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T02:00:40.582Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T02:00:40.582Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770170472417_oahe5u",
+      "grupoId": "grupo_1770170197704_uij0tv",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito info de que es asea\n\nNo tengo la carta porte del 2024",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-05T02:01:12.417Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-04T02:01:12.418Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770251940782_cygiwh",
+      "grupoId": "grupo_1770251940661_ux15cy",
+      "titulo": "Cubicación de Tanque",
+      "descripcion": "Necesito saber cuándo vienen a realizar la visita para la cubicación y cuáles son los requisitos",
+      "responsable": {
+        "id": "alfredo-zamudio",
+        "nombre": "J. Alfredo Zamudio",
+        "telefono": "3318647476",
+        "email": "laboratorio@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-06T00:39:00.775Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-05T00:39:00.792Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770251958109_6lx0yh",
+      "grupoId": "grupo_1770250269646_d0za5h",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito ayuda con mi carta porte\n\nNecesito ayuda con mi carta porte",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-06T00:39:18.109Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-05T00:39:18.109Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770253228555_r6hls7",
+      "grupoId": "grupo_1770253212881_b665us",
+      "titulo": "Consulta General",
+      "descripcion": "Donde esta ubicados\n\nDonde estan",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-06T01:00:28.553Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-05T01:00:28.560Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770253235686_7uuefr",
+      "grupoId": "grupo_1770253212881_b665us",
+      "titulo": "Consulta General",
+      "descripcion": "Donde esta ubicados\n\nDonde se encuentran",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-06T01:00:35.686Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-05T01:00:35.687Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770253245394_kgaxvs",
+      "grupoId": "grupo_1770253245379_jniekx",
+      "titulo": "Atención a clientes",
+      "descripcion": "Cuales son sus costos ?",
+      "responsable": {
+        "id": "francisco-ramirez",
+        "nombre": "Francisco Ramírez",
+        "telefono": "3313332696",
+        "email": "clientes@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-06T01:00:45.394Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-05T01:00:45.394Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770253281298_8foblm",
+      "grupoId": "grupo_1770253281271_v5cz0e",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Tengo prblmas al subir los json",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-06T01:01:21.298Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-05T01:01:21.298Z",
+      "usuario": {
+        "whatsappId": "139578501533920@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770338719453_rcresp",
+      "grupoId": "grupo_1770338678386_wa4jm2",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito el link para subir mis documentos\n\nOk, envíamelo por favor",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:45:19.452Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:45:19.480Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770338759184_2y8g27",
+      "grupoId": "grupo_1770338678386_wa4jm2",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito el link para subir mis documentos\n\nCómo va mi acuse de recibo?",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:45:59.184Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:45:59.184Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770338820459_71h5ji",
+      "grupoId": "grupo_1770338803845_x58jde",
+      "titulo": "Consulta General",
+      "descripcion": "La vamos apartando?\n\nEsa pendejada que?",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:47:00.459Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:47:00.462Z",
+      "usuario": {
+        "whatsappId": "139655223746757@lid",
+        "nombre": "Vallarta Fest"
+      }
+    },
+    {
+      "id": "tarea_1770338834843_68q6w5",
+      "grupoId": "grupo_1770338803845_x58jde",
+      "titulo": "Consulta General",
+      "descripcion": "La vamos apartando?\n\nMande mensajes al hotel o que",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:47:14.843Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:47:14.843Z",
+      "usuario": {
+        "whatsappId": "139655223746757@lid",
+        "nombre": "Vallarta Fest"
+      }
+    },
+    {
+      "id": "tarea_1770338838551_29sni3",
+      "grupoId": "grupo_1770338803845_x58jde",
+      "titulo": "Consulta General",
+      "descripcion": "La vamos apartando?\n\nJajajaj",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:47:18.551Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:47:18.551Z",
+      "usuario": {
+        "whatsappId": "139655223746757@lid",
+        "nombre": "Vallarta Fest"
+      }
+    },
+    {
+      "id": "tarea_1770338847429_5574fy",
+      "grupoId": "grupo_1770338803845_x58jde",
+      "titulo": "Consulta General",
+      "descripcion": "La vamos apartando?\n\nOtra vez?",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:47:27.429Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:47:27.430Z",
+      "usuario": {
+        "whatsappId": "139655223746757@lid",
+        "nombre": "Vallarta Fest"
+      }
+    },
+    {
+      "id": "tarea_1770338850050_w0c9ra",
+      "grupoId": "grupo_1770338803845_x58jde",
+      "titulo": "Consulta General",
+      "descripcion": "La vamos apartando?\n\nYa párale",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:47:30.050Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:47:30.050Z",
+      "usuario": {
+        "whatsappId": "139655223746757@lid",
+        "nombre": "Vallarta Fest"
+      }
+    },
+    {
+      "id": "tarea_1770338851245_6ooma7",
+      "grupoId": "grupo_1770338803845_x58jde",
+      "titulo": "Consulta General",
+      "descripcion": "La vamos apartando?\n\nJajajaja",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-07T00:47:31.245Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-06T00:47:31.245Z",
+      "usuario": {
+        "whatsappId": "139655223746757@lid",
+        "nombre": "Vallarta Fest"
+      }
+    },
+    {
+      "id": "tarea_1770680569385_cmtw9b",
+      "grupoId": "grupo_1770680569370_48hmue",
+      "titulo": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "descripcion": "Además no puedo subir mis json",
+      "responsable": {
+        "id": "alberto-mendez",
+        "nombre": "Ing. Alberto Méndez",
+        "telefono": "3346790303",
+        "email": "alberto@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:42:49.384Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:42:49.389Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680610626_ax6t5v",
+      "grupoId": "grupo_1770680552055_mmknbh",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito saber cómo va mi trámite ?\n\nY dónde estan",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:43:30.626Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:43:30.626Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680654571_cnfg8s",
+      "grupoId": "grupo_1770680552055_mmknbh",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito saber cómo va mi trámite ?\n\nY dónde estan ubicados",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:44:14.571Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:44:14.572Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680680715_ipkwtu",
+      "grupoId": "grupo_1770680552055_mmknbh",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito saber cómo va mi trámite ?\n\nUbicación",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:44:40.715Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:44:40.715Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680699900_qvgyio",
+      "grupoId": "grupo_1770680552055_mmknbh",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito saber cómo va mi trámite ?\n\nCuál es su ubicación",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:44:59.900Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:44:59.922Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680709732_o7uk0u",
+      "grupoId": "grupo_1770680552055_mmknbh",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito saber cómo va mi trámite ?\n\nPero donde estan",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:45:09.732Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:45:09.732Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680724374_ehi3jt",
+      "grupoId": "grupo_1770680724370_499h4y",
+      "titulo": "Facturación",
+      "descripcion": "Aún no recibo mi factura",
+      "responsable": {
+        "id": "janeth-bautista",
+        "nombre": "Janeth Bautista",
+        "telefono": "3328339619",
+        "email": "administracion@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:45:24.374Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:45:24.374Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1770680738886_ap43lj",
+      "grupoId": "grupo_1770680552055_mmknbh",
+      "titulo": "Consulta General",
+      "descripcion": "Necesito saber cómo va mi trámite ?\n\nA qué hrs cierran",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-02-10T23:45:38.886Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-02-09T23:45:38.886Z",
+      "usuario": {
+        "whatsappId": "61430967607451@lid",
+        "nombre": "Fgya"
+      }
+    },
+    {
+      "id": "tarea_1774055416532_mcwow5",
+      "grupoId": "grupo_1774055392498_t86bi0",
+      "titulo": "Consulta General",
+      "descripcion": "https://www.facebook.com/share/v/18ULKb8XtS/\n\nCaja con 12 pz les queda más barata🤑",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-03-22T01:10:16.531Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-03-21T01:10:16.554Z",
+      "usuario": {
+        "whatsappId": "status@broadcast",
+        "nombre": "Usuario"
+      }
+    },
+    {
+      "id": "tarea_1774057440688_9ua7xr",
+      "grupoId": "grupo_1774057423400_otwvm9",
+      "titulo": "Consulta General",
+      "descripcion": "Q le moviste?\n\nSimon",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-03-22T01:44:00.687Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-03-21T01:44:00.701Z",
+      "usuario": {
+        "whatsappId": "243713758523603@lid",
+        "nombre": "Xandros"
+      }
+    },
+    {
+      "id": "tarea_1774057639863_1cq763",
+      "grupoId": "grupo_1774057423400_otwvm9",
+      "titulo": "Consulta General",
+      "descripcion": "Q le moviste?\n\nArre we chido",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-03-22T01:47:19.863Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-03-21T01:47:19.868Z",
+      "usuario": {
+        "whatsappId": "243713758523603@lid",
+        "nombre": "Xandros"
+      }
+    },
+    {
+      "id": "tarea_1774057664974_m0z2cj",
+      "grupoId": "grupo_1774057423400_otwvm9",
+      "titulo": "Consulta General",
+      "descripcion": "Q le moviste?\n\nOye y ya te dijo el encargado cuando tenemos que hacer las entregas?",
+      "responsable": {
+        "id": "default",
+        "nombre": "Equipo General",
+        "telefono": "(33) 3407 0123",
+        "email": "alex@fgya.com.mx"
+      },
+      "prioridad": {
+        "nivel": "MEDIA",
+        "etiqueta": "SEGUIMIENTO",
+        "accion": "REGISTRAR",
+        "confianza": 0.8
+      },
+      "vencimiento": "2026-03-22T01:47:44.974Z",
+      "estatus": "Pendiente",
+      "fechaCreacion": "2026-03-21T01:47:44.978Z",
+      "usuario": {
+        "whatsappId": "243713758523603@lid",
+        "nombre": "Xandros"
+      }
     }
   ],
   "grupos": [
@@ -2126,6 +3451,656 @@
       ],
       "primerMensaje": 1769551890698,
       "ultimoMensaje": 1769551890698,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769561047273_f7wd4q",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito urgente una auditoría",
+          "timestamp": 1769561047273,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769561047273,
+      "ultimoMensaje": 1769561047273,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1769645754986_idjoe8",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Okis. Necesito una auditoría urgente",
+          "timestamp": 1769645754986,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1769645754986,
+      "ultimoMensaje": 1769645754986,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770153520954_2zedje",
+      "userId": "5213329681342@c.us",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "El contador me dice que este Json no es correcto",
+          "timestamp": 1770153520954,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770153520954,
+      "ultimoMensaje": 1770153520954,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770155562414_3s6ymh",
+      "userId": "5213329681342@c.us",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Mis json fueron rechazados",
+          "timestamp": 1770155562414,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770155562414,
+      "ultimoMensaje": 1770155562414,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770155738124_205ifj",
+      "userId": "5213329681342@c.us",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Me pueden compartir la factura de este mes",
+          "timestamp": 1770155738124,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770155738124,
+      "ultimoMensaje": 1770155738124,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770156696863_60ob79",
+      "userId": "5213329681342@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Que",
+          "timestamp": 1770156696863,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770156696863,
+      "ultimoMensaje": 1770156696863,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770157208934_x7ma22",
+      "userId": "5213329681342@c.us",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Tengo duda al subir información en el portal ope del transporte",
+          "timestamp": 1770157208934,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770157208934,
+      "ultimoMensaje": 1770157208934,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770157395190_kdj2wd",
+      "userId": "5213329681342@c.us",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Hay una manual o como debo subir la info al portal de ope",
+          "timestamp": 1770157395190,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770157395190,
+      "ultimoMensaje": 1770157395190,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770159106963_dh72a5",
+      "userId": "5213329681342@c.us",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Tengo una duda al subir la información en ek portal ope",
+          "timestamp": 1770159106963,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770159106963,
+      "ultimoMensaje": 1770159106963,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770159741777_uolbum",
+      "userId": "5213329681342@c.us",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Buenas noches me pide el contador esos datos para llenar el formato para poder subir los json",
+          "timestamp": 1770159741777,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770159741777,
+      "ultimoMensaje": 1770159741777,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770160867334_w1imo4",
+      "userId": "120363297590069688@newsletter",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "*STICKERS PARA LIGAR*😻",
+          "timestamp": 1770160867334,
+          "nombreUsuario": "STICKERS",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770160867334,
+      "ultimoMensaje": 1770160867334,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770162213179_3w537x",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito una auditoría urgente",
+          "timestamp": 1770162213179,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770162213179,
+      "ultimoMensaje": 1770162213179,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770162375941_vs1z21",
+      "userId": "5213331270128@c.us",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+          "timestamp": 1770162375941,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770162375941,
+      "ultimoMensaje": 1770162375941,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770167702330_49dehj",
+      "userId": "5213329681342@c.us",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Tienen alguna fecha estimada oara los json pendientes 2024 y 2025",
+          "timestamp": 1770167702330,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770167702330,
+      "ultimoMensaje": 1770167702330,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770169538303_oyakar",
+      "userId": "17338850124019@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Buenas noches chic@s 🌙\n\nEn un momento mas actualizo las listas de las personas que han generado su apartado para alguna de las rutas \n\n*Importante ⚠️*\nRecuerden poner en el concepto la ruta para la que estas generando tu apartado y mandarme tu comprobante por mensaje privado o por el grupo, gracias ! 🤍",
+          "timestamp": 1770169538303,
+          "nombreUsuario": "Senderismo Sobre Ruedas",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770169538303,
+      "ultimoMensaje": 1770169538303,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770170132825_0n39a9",
+      "userId": "5213329681342@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Cual",
+          "timestamp": 1770170132825,
+          "nombreUsuario": "Santi Nuevo 2",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770170132825,
+      "ultimoMensaje": 1770170132825,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770170138572_ur0qz3",
+      "userId": "139578501533920@lid",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Error portal OPE: no se que documentos me faltan",
+          "timestamp": 1770170138572,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770170138572,
+      "ultimoMensaje": 1770170138572,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770170197704_uij0tv",
+      "userId": "139578501533920@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito info de que es asea",
+          "timestamp": 1770170197704,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770170197704,
+      "ultimoMensaje": 1770170197704,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770170463669_1ag7dk",
+      "userId": "65554169753766@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Buenas noches todavía hay espacio?",
+          "timestamp": 1770170463669,
+          "nombreUsuario": "🌲 Rio Salado - La primavera 💧🔥",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770170463669,
+      "ultimoMensaje": 1770170463669,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770250269646_d0za5h",
+      "userId": "61430967607451@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito ayuda con mi carta porte",
+          "timestamp": 1770250269646,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770250269646,
+      "ultimoMensaje": 1770250269646,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770251940661_ux15cy",
+      "userId": "61430967607451@lid",
+      "tema": "Cubicación de Tanque",
+      "especialistaId": "alfredo-zamudio",
+      "especialista": "J. Alfredo Zamudio",
+      "mensajes": [
+        {
+          "texto": "Necesito saber cuándo vienen a realizar la visita para la cubicación y cuáles son los requisitos",
+          "timestamp": 1770251940661,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770251940661,
+      "ultimoMensaje": 1770251940661,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770253212881_b665us",
+      "userId": "139578501533920@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Donde esta ubicados",
+          "timestamp": 1770253212881,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770253212881,
+      "ultimoMensaje": 1770253212881,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770253245379_jniekx",
+      "userId": "139578501533920@lid",
+      "tema": "Atención a clientes",
+      "especialistaId": "francisco-ramirez",
+      "especialista": "Francisco Ramírez",
+      "mensajes": [
+        {
+          "texto": "Cuales son sus costos ?",
+          "timestamp": 1770253245379,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770253245379,
+      "ultimoMensaje": 1770253245379,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770253281271_v5cz0e",
+      "userId": "139578501533920@lid",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Tengo prblmas al subir los json",
+          "timestamp": 1770253281271,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770253281271,
+      "ultimoMensaje": 1770253281271,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770338678386_wa4jm2",
+      "userId": "61430967607451@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito el link para subir mis documentos",
+          "timestamp": 1770338678386,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770338678386,
+      "ultimoMensaje": 1770338678386,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770338803845_x58jde",
+      "userId": "139655223746757@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "La vamos apartando?",
+          "timestamp": 1770338803845,
+          "nombreUsuario": "Vallarta Fest",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770338803845,
+      "ultimoMensaje": 1770338803845,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770338804181_wclqyv",
+      "userId": "120363169899539365@g.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Archivo recibido: FGYA_1770338803461.mp4",
+          "timestamp": 1770338804181,
+          "nombreUsuario": null,
+          "tieneArchivo": true,
+          "archivo": {
+            "nombre": "FGYA_1770338803461.mp4",
+            "link": null,
+            "tipo": "video/mp4"
+          }
+        }
+      ],
+      "primerMensaje": 1770338804181,
+      "ultimoMensaje": 1770338804181,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770680552055_mmknbh",
+      "userId": "61430967607451@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Necesito saber cómo va mi trámite ?",
+          "timestamp": 1770680552055,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770680552055,
+      "ultimoMensaje": 1770680552055,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770680569370_48hmue",
+      "userId": "61430967607451@lid",
+      "tema": "Generación de archivos XML/JSON mensuales para transporte (SAT)",
+      "especialistaId": "alberto-mendez",
+      "especialista": "Ing. Alberto Méndez",
+      "mensajes": [
+        {
+          "texto": "Además no puedo subir mis json",
+          "timestamp": 1770680569370,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770680569370,
+      "ultimoMensaje": 1770680569370,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1770680724370_499h4y",
+      "userId": "61430967607451@lid",
+      "tema": "Facturación",
+      "especialistaId": "janeth-bautista",
+      "especialista": "Janeth Bautista",
+      "mensajes": [
+        {
+          "texto": "Aún no recibo mi factura",
+          "timestamp": 1770680724370,
+          "nombreUsuario": "Fgya",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1770680724370,
+      "ultimoMensaje": 1770680724370,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1774055392498_t86bi0",
+      "userId": "status@broadcast",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "https://www.facebook.com/share/v/18ULKb8XtS/",
+          "timestamp": 1774055392498,
+          "nombreUsuario": null,
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1774055392498,
+      "ultimoMensaje": 1774055392498,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1774055476055_1xrxia",
+      "userId": "status@broadcast",
+      "tema": "Cita",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Cuando te dan las 2 citas de tramites de adulto cercanas me ponen feliz, ya casi lo logramos\n🤗🙃",
+          "timestamp": 1774055476055,
+          "nombreUsuario": null,
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1774055476055,
+      "ultimoMensaje": 1774055476055,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1774057333562_7z6ez3",
+      "userId": "5213331270128@c.us",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Nesesito ayuda con una auditoría",
+          "timestamp": 1774057333562,
+          "nombreUsuario": "Mama",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1774057333562,
+      "ultimoMensaje": 1774057333562,
+      "necesitaTarea": true
+    },
+    {
+      "id": "grupo_1774057423400_otwvm9",
+      "userId": "243713758523603@lid",
+      "tema": "Consulta General",
+      "especialistaId": "default",
+      "especialista": "Equipo General",
+      "mensajes": [
+        {
+          "texto": "Q le moviste?",
+          "timestamp": 1774057423400,
+          "nombreUsuario": "Xandros",
+          "tieneArchivo": false,
+          "archivo": null
+        }
+      ],
+      "primerMensaje": 1774057423400,
+      "ultimoMensaje": 1774057423400,
       "necesitaTarea": true
     }
   ]

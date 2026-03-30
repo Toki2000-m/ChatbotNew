@@ -1,0 +1,34 @@
+=================================================================
+📧 MENSAJE PARA TU COMPAÑERO DE SISTEMAS
+=================================================================
+
+Hola,
+
+Necesito validar que las tareas del bot de WhatsApp se están creando 
+correctamente en Microsoft Lists. 
+
+He verificado que el webhook está enviando las tareas (Status 202), 
+pero no tengo acceso para confirmar que lleguen a destino.
+
+¿Me podrías ayudar con lo siguiente?
+
+1. ¿Cuál es el nombre de la lista de Microsoft Lists donde se guardan?
+   Ejemplo: "Tareas WhatsApp Bot" o "Solicitudes Clientes"
+
+2. ¿Me puedes compartir la URL de esa lista?
+   Ejemplo: https://[tu-empresa].sharepoint.com/sites/[sitio]/Lists/[nombre]
+
+3. ¿Me podrías dar acceso de SOLO LECTURA a esa lista?
+   Solo necesito ver que las tareas se están creando.
+
+4. ¿Podrías confirmar si estas tareas de prueba llegaron?
+   - ID: prueba_1770340506469 (o similar)
+   - Título: "🧪 TAREA DE PRUEBA - VALIDACIÓN"
+   - Fecha: [HOY]
+
+Alternativamente, si tienes captura de pantalla de la lista de 
+Microsoft Lists, eso me serviría para validar.
+
+Gracias!
+
+=================================================================

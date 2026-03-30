@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-02-08T20:35:03.969Z",
+  "timestampLocal": "8/2/2026, 2:35:03 p.m.",
+  "webhookUrl": "https://defaultfb4eebd6e8a6405eb66ee2bd43a138.b8.e...",
+  "error": {
+    "message": "Request failed with status code 401",
+    "code": "ERR_BAD_REQUEST",
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "data": {
+        "error": {
+          "code": "DirectApiAuthorizationRequired",
+          "message": "The OAuth authorization scheme is required. Please add authentication scheme and try again."
+        }
+      }
+    }
+  }
+}

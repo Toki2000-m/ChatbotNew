@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-02-06T01:25:53.852Z",
+  "timestampLocal": "5/2/2026, 7:25:53 p.m.",
+  "webhookUrl": "https://default29060bace6f1409c91d169b9bae950.78.e...",
+  "tareaEnviada": {
+    "tarea": {
+      "id": "prueba_1770341153095",
+      "titulo": "🧪 TAREA DE PRUEBA - VALIDACIÓN",
+      "descripcion": "Esta es una tarea de prueba para validar que el webhook funciona correctamente",
+      "responsable": {
+        "nombre": "Equipo de Prueba",
+        "telefono": "(33) 1234-5678",
+        "email": "prueba@test.com"
+      },
+      "vencimiento": "2026-02-13T01:25:53.096Z",
+      "archivos": [],
+      "estatus": "Pendiente - PRUEBA",
+      "tema": "Validación de Sistema"
+    },
+    "usuario": {
+      "whatsapp": "521234567890@c.us",
+      "nombre": "Usuario de Prueba"
+    },
+    "timestamp": "2026-02-06T01:25:53.107Z",
+    "fuente": "Script de Validación",
+    "tipo": "Tarea de Prueba"
+  },
+  "respuesta": {
+    "status": 202,
+    "statusText": "Accepted",
+    "headers": {
+      "content-length": "0",
+      "date": "Fri, 06 Feb 2026 01:25:53 GMT",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-ms-islandgateway": "_prdil101eusgb0_2",
+      "x-ms-igw-tracking-id": "fcc9041d-ed82-48ea-9142-d844e9a9f94e20260206012553_prdil101eusgb0_2",
+      "x-ms-ppapigateway": "_prdil101eusgb0_6",
+      "x-ms-gateway-clusters": "prdil101eus",
+      "x-ms-workflow-run-id": "08584312657313907803627199136CU21",
+      "x-ms-correlation-id": "b3e6b1ec-2af2-413b-af34-b85973095dc0",
+      "x-ms-client-tracking-id": "08584312657313907803627199136CU21",
+      "x-ms-trigger-history-name": "08584312657313907803627199136CU21",
+      "x-ms-execution-location": "eastus",
+      "x-ms-workflow-system-id": "/locations/eastus/scaleunits/prod-17/workflows/96f3525dabfc4e96b8cbe16440f1a470",
+      "x-ms-workflow-id": "96f3525dabfc4e96b8cbe16440f1a470",
+      "x-ms-workflow-version": "08584385320661620953",
+      "x-ms-workflow-name": "7e1a313c-2bda-42d0-aa57-92a3ca21cad2",
+      "x-ms-tracking-id": "2d9e63b0-7a41-4f22-8f65-43762aa94fef",
+      "x-ms-ratelimit-burst-remaining-workflow-writes": "561",
+      "x-ms-ratelimit-remaining-workflow-download-contentsize": "402653184",
+      "x-ms-ratelimit-remaining-workflow-upload-contentsize": "402652619",
+      "x-ms-ratelimit-time-remaining-directapirequests": "37499912",
+      "x-ms-request-id": "eastus:2d9e63b0-7a41-4f22-8f65-43762aa94fef",
+      "x-servicefabric": "NoRetry",
+      "x-ms-service-request-id": "fcc9041d-ed82-48ea-9142-d844e9a9f94e",
+      "x-ms-activity-vector": "00.00.00",
+      "server-timing": "x-ms-igw-upstream-headers;dur=221.2,x-ms-igw-req-overhead;dur=0.1",
+      "x-content-type-options": "nosniff"
+    },
+    "data": ""
+  }
+}

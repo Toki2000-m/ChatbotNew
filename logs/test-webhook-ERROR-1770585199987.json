@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-08T21:13:19.987Z",
+  "timestampLocal": "8/2/2026, 3:13:19 p.m.",
+  "webhookUrl": "https://hook.us2.make.com/b77aa5g6cinegckjh3p7135g...",
+  "error": {
+    "message": "Request failed with status code 410",
+    "code": "ERR_BAD_REQUEST",
+    "response": {
+      "status": 410,
+      "statusText": "Gone",
+      "data": "There is no scenario listening for this webhook."
+    }
+  }
+}

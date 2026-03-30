@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-02-09T18:21:39.942Z",
+  "timestampLocal": "9/2/2026, 12:21:39 p.m.",
+  "webhookUrl": "https://hook.us2.make.com/b77aa5g6cinegckjh3p7135g...",
+  "tareaEnviada": {
+    "tarea": {
+      "id": "prueba_1770661299640",
+      "titulo": "🧪 TAREA DE PRUEBA - VALIDACIÓN",
+      "descripcion": "Esta es una tarea de prueba para validar que el webhook funciona correctamente",
+      "responsable": {
+        "nombre": "Equipo de Prueba",
+        "telefono": "(33) 1234-5678",
+        "email": "prueba@test.com"
+      },
+      "vencimiento": "2026-02-16T18:21:39.640Z",
+      "archivos": [],
+      "estatus": "Pendiente - PRUEBA",
+      "tema": "Validación de Sistema"
+    },
+    "usuario": {
+      "whatsapp": "521234567890@c.us",
+      "nombre": "Usuario de Prueba"
+    },
+    "timestamp": "2026-02-09T18:21:39.642Z",
+    "fuente": "Script de Validación",
+    "tipo": "Tarea de Prueba"
+  },
+  "respuesta": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "date": "Mon, 09 Feb 2026 18:21:28 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "content-length": "8",
+      "connection": "keep-alive",
+      "cf-ray": "9cb562fdaeb021b8-GDL",
+      "x-powered-by": "Make Gateway/production",
+      "access-control-allow-origin": "*",
+      "make-actual-status": "200",
+      "cf-cache-status": "DYNAMIC",
+      "set-cookie": "__cf_bm=rQshBLIJZiH11ac13BF73VVqpml_b_Rnk7uNfeBNBLE-1770661288-1.0.1.1-nKDPsoeYjcaIHlcrO2KZxptPfzONHwGN6.iSEpqYY6RFQlOuy_t6XwbCnF4yHBJkJfSyC8vBJ7aAIrtAwyljOjzA6czKpsiYkZwTbsTXK7o; path=/; expires=Mon, 09-Feb-26 18:51:28 GMT; domain=.us2.make.com; HttpOnly; Secure; SameSite=None",
+      "server": "cloudflare"
+    },
+    "data": "Accepted"
+  }
+}
